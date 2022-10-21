@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+html,body {
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+.fixed-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  color: rgb(243, 11, 108);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  display: table;
+}
+
+.fixed-bg h1 {
+  display: table-cell;
+  vertical-align: middle;
+  padding:200px 500px;
+}
+
+.scroll-bg {
+  background-color: #0f0f0a;
+  padding: 10px 70px;
+  color: #f5efef;
+}
+
+/* first section */
+
+.bg-1 {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201123/pngtree-digital-technology-low-poly-design-image_499020.jpg');
+}
+
+/* third section */
+
+.bg-2 {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/180/409/original/software-engineers-vector.png');
+}
+
+/* fifth section */
+
+.bg-3 {
+  background-image: url('https://img.lovepik.com//photo/50007/7678.jpg_300.jpg');
+}

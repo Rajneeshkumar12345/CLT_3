@@ -1,0 +1,68 @@
+#contatti{
+    background: url("Contact_image.png") no-repeat center center/cover;
+    letter-spacing: 2px;
+    }
+  #contatti a{
+    color: #020214;
+    text-decoration:none;
+    font-weight: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  #contatti h2{
+    color:#f70787;
+    text-indent: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  @media (max-width: 575.98px) {
+  
+    #contatti{padding-bottom: 800px;}
+    #contatti .maps iframe{
+      width: 100%;
+      height: 450px;
+    }
+   }
+  
+  
+  @media (min-width: 576px) {
+  
+     #contatti{padding-bottom: 800px;}
+  
+     #contatti .maps iframe{
+       width: 100%;
+       height: 450px;
+       border-radius: 15PX 50px;
+     }
+   }
+  
+  @media (min-width: 768px) {
+  
+    #contatti{padding-bottom: 350px;}
+  
+    #contatti .maps iframe{
+      width: 100%;
+      height: 850px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #contatti{padding-bottom: 200px;}
+  
+     #contatti .maps iframe{
+       width: 100%;
+       height: 700px;
+     }
+  }
+  
+  
+  #author a{
+    color: #fff;
+    text-decoration: none;
+      
+  }
+
+  #contatti.check{
+    color: #106318;
+  }
+ 

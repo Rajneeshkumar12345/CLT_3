@@ -1,0 +1,23 @@
+.row.service_ui{
+    text-decoration: none;
+}
+
+.Service_content{
+text-align: justify;
+}
+
+.hover-4 img {
+    width: 110%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hover-4 .hover-overlay {
+    background: rgba(185, 170, 170, 0.4);
+    z-index: 90;
+  }
+  .hover-4:hover .hover-overlay {
+    /* background: rgba(0, 0, 0, 0.8); */
+    background: rgba(148, 147, 147, 0.8);;
+  }
