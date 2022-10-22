@@ -32,14 +32,14 @@ const Footer = () => {
                 target="_blank"
                 className="text-white me-4"
               >
-                <FacebookOutlinedIcon />
+                <FacebookOutlinedIcon fontSize="large" />
               </a>
               <a
                 href="https://twitter.com/infoRajInfotech"
                 target="_blank"
                 className="text-white me-4"
               >
-                <TwitterIcon />
+                <TwitterIcon  fontSize="large"/>
               </a>
 
               <a
@@ -47,14 +47,14 @@ const Footer = () => {
                 target="_blank"
                 className="text-white me-4"
               >
-                <InstagramIcon />
+                <InstagramIcon  fontSize="large"/>
               </a>
               <a
                 href="https://www.linkedin.com/in/codelover-technology-810724151/"
                 target="_blank"
                 className="text-white me-4"
               >
-                <LinkedInIcon />
+                <LinkedInIcon  fontSize="large"/>
               </a>
             </div>
           </section>

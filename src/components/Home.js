@@ -32,7 +32,7 @@ const Home = () => {
                 .typeString("Web Development")
                 .pauseFor(1000)
                 .deleteAll()
-                .typeString("Marketing")
+                .typeString("Digital Marketing")
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString("IT Infrastructure")
@@ -41,7 +41,7 @@ const Home = () => {
                 .typeString("Artificial Intelligence (AI)")
                 .pauseFor(1000)
                 .deleteAll()
-                .typeString("Internet Of Things (IOT)")
+                .typeString("Internet of Things (IOT)")
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString("CodeLover Technology")
@@ -57,7 +57,7 @@ const Home = () => {
             <div className="row">
               {/* Card Number 1 */}
               <div
-                className="card-wrapper card-image-title-description col-lg-4 col-md-6 col-xs-12"
+                className="card-wrapper card-image-title-description col-lg-4 col-md-6 col-sm-12"
                 style={{ marginTop: "-5rem" }}
               >
                 <div className="card">
@@ -86,7 +86,7 @@ const Home = () => {
               {/* Card Number 2 */}
 
               <div
-                className="card-wrapper card-image-title-description col-lg-4 col-md-6 col-xs-12"
+                className="card-wrapper card-image-title-description col-lg-4 col-md-6 col-sm-12"
                 style={{ marginTop: "-5rem" }}
               >
                 <div className="card">
@@ -114,7 +114,7 @@ const Home = () => {
               {/* Card Number 3 */}
 
               <div
-                className="card-wrapper card-image-title-description col-lg-4 col-md-6 col-xs-12"
+                className="card-wrapper card-image-title-description col-lg-4 col-md-6 col-sm-12"
                 style={{ marginTop: "-5rem" }}
               >
                 <div className="card">
@@ -330,7 +330,7 @@ const Home = () => {
             <div className="row">
               <div className="col-md-12 text-center">
                 <div className="our-approch-title mt-5">
-                  <h1>OUR APPROACH FROM START TO GROWTH</h1>
+                  OUR APPROACH FROM START TO GROWTH
                 </div>
                 <div className="our-approch-sub-title">
                   <h5>To fuel your business by connecting all the dots like
@@ -369,7 +369,76 @@ const Home = () => {
           </div>
         </section>
 
+        {/* /* OUR EXPERTISE SECTION START FROM HERE */ }
+                
+	{/* <a href="https://front.codes/" class="logo hover-target" target="_blank">
+		<img src="https://assets.codepen.io/1462889/fcb.png" alt=""/>
+	</a> */}
+
+<section className="expertise-wrapp" style={{backgroundColor:"#cafcfc"}}>
+<h2 className="text-center">Our Expertise</h2>
+<div class="section full-height over-hide px-4 px-sm-0">
+		<div class="container">
+			<div class="row full-height justify-content-center">
+				<div class="col-lg-10 col-xl-8 align-self-center padding-tb">
+					<div class="section mx-auto text-center slider-height-padding">
+			          	<input class="checkbox frst" type="radio" id="slide-1" name="slider" checked/>
+			          	<label for="slide-1"></label>
+			          	<input class="checkbox scnd" type="radio" name="slider" id="slider-2"/>
+			          	<label for="slider-2"></label>
+			          	<input class="checkbox thrd" type="radio" name="slider" id="slider-3"/>
+			          	<label for="slider-3"></label>
+			          	<input class="checkbox foth" type="radio" name="slider" id="slider-4"/>
+			          	<label for="slider-4"></label>
+						<ul className="Expertise-ul">
+							<li className="Expertise-li">
+								<span>CodeLover Technology</span>
+						    </li>
+							<li className="Expertise-li">
+								<span>CodeLover Technology</span>
+						    </li>
+							<li className="Expertise-li">
+								<span>CodeLover Technology</span>
+						    </li>
+							<li className="Expertise-li">
+								<span>CodeLover Technology</span>
+						    </li>
+					    </ul>
+				    </div>
+			    </div>
+	      	</div>
+	    </div>
+	</div>
+</section>
+
+
+	
+
+
+{/* our Approach start here */}
+
+        <section class="banner-wrapp gap-top">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-md-6 text-center banner-title-block">
+                  <div class="banner-title">Our Approach</div>
+              </div>
+              <div class="col-md-6 banner-cnt-block approach-text">
+                  <p>CodeLover Technology aids clients to embrace technology so they can reshape their business, become more proactive, and propels them towards market leadership.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+
+
+
+
         {/* our Testimonial start here  */}
+
+
         <section className="client pt-3 pb-5">
           <div className="container">
             <div className="row text-center">

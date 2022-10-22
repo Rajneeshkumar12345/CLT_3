@@ -21,3 +21,7 @@ text-align: justify;
     /* background: rgba(0, 0, 0, 0.8); */
     background: rgba(148, 147, 147, 0.8);;
   }
+
+  .service_justify{
+    text-align: justify;
+  }

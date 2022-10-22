@@ -27,26 +27,26 @@ function Service() {
         </div> */}
         <div className="container" style={{marginTop:"0rem"}}>
           <div className="row">
-            <div className="col-md-12 col-sm-12 col-xs-12">
-              <h1 className="section-title text-center mt-3">
+            <div className="col-md-12 col-sm-12 col-xs-12 ">
+              <h1 className="section-title text-center" style={{marginTop:"7rem"}}>
                 CODELOVER <span style={{color:"#d60909"}}>TECHNOLOGY</span> SERVICES
               </h1>
-              <p>
+              <p className="service_justify">
                 <b>CodeLover Technology</b> is a global IT company with a proven
                 track record of excellence in software-consulting, outsourcing
                 and digital solutions.
               </p>
-              <p>
+              <p className="service_justify">
                 Having worked for more than a decade, we have gained
                 unparalleled experience and developed comprehensive capabilities
                 &amp; expertise across a wide variety of functions and
                 industries.
               </p>
-              <p>
+              <p className="service_justify">
                 We partner with companies to fulfill their ever evolving IT
                 needs and support their business with our enabling solutions.
               </p>
-              <p>
+              <p className="service_justify">
                 Our team of professional constantly work to create personalized,
                 end-to-end solutions to serve the dynamic requirements of our
                 clients.
@@ -267,7 +267,7 @@ function Service() {
                 <p className="text-dark mt-3">
                   We create corporate web portals and intranets to help
                   established enterprises benefit from collaboration and
-                  document management
+                  document management.
                 </p>
                 <h2 style={{ color: "#d40688" }}>Hosting Plan</h2>
                 <div className="row p-2">
