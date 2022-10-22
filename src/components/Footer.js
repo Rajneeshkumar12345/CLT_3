@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import HomeTwoToneIcon from "@mui/icons-material/HomeTwoTone";
 import DraftsTwoToneIcon from "@mui/icons-material/DraftsTwoTone";
 import CallTwoToneIcon from "@mui/icons-material/CallTwoTone";
+import logo from "../images/CodeLoverTech_Logo.png"
 
 const Footer = () => {
   return (
@@ -74,7 +75,7 @@ const Footer = () => {
                     }}
                   />
                   <div className="photo">
-                    <img src="CodeLoverTech_Logo.png" width="250" height="80" />
+                    <img src={logo} width="250" height="80" />
                   </div>
                  <br></br>
                   {/* <div className="text-dark ">
@@ -114,28 +115,28 @@ const Footer = () => {
                     }}
                   />
                   <p>
-                    <Link to="/Home" className="text-dark menu_footer">
-                      Home
+                    <Link to="/" className="text-dark menu_footer">
+                      Home 
                     </Link>
                   </p>
                   <p>
-                    <Link to="/OurLegecy" className="text-dark menu_footer">
+                    <Link to="/About" className="text-dark menu_footer">
                       About us
                     </Link>
                   </p>
                   <p>
                     <Link to="/Service" className="text-dark menu_footer">
                       {" "}
-                      our Services
+                      Our Services
                     </Link>
                   </p>
                   <p>
-                    <Link to="/Project" className="text-dark  menu_footer">
+                    <Link to="/Projects" className="text-dark  menu_footer">
                       Our Projects
                     </Link>
                   </p>
                   <p>
-                    <Link to="/Project" className="text-dark  menu_footer">
+                    <Link to="/Technology" className="text-dark  menu_footer">
                       Technology
                     </Link>
                   </p>

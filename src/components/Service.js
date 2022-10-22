@@ -22,13 +22,13 @@ function Service() {
   return (
     <>
       <div className="body-content" style={{ backgroundColor: "#b8d0d1" }}>
-      <div className="image">
+      {/* <div className="image">
           <img src="CodeLoverTech_Logo.png" width="250" height="80" className="mt-2" style={{marginLeft:"70px"}}></img>
-        </div>
+        </div> */}
         <div className="container" style={{marginTop:"0rem"}}>
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <h1 class="section-title text-center mt-3">
+          <div className="row">
+            <div className="col-md-12 col-sm-12 col-xs-12">
+              <h1 className="section-title text-center mt-3">
                 CODELOVER <span style={{color:"#d60909"}}>TECHNOLOGY</span> SERVICES
               </h1>
               <p>
@@ -55,13 +55,13 @@ function Service() {
           </div>
           <div id="service">
             <div style={{ width: "100%", margin: "0px 0px 50px 0px" }}>
-              <div class="row">
-                <div class="col-md-3 col-sm-3 col-xs-12">
+              <div className="row">
+                <div className="col-md-3 col-sm-3 col-xs-12">
                   <ul
-                    class="nav nav-tabs tabs-left"
+                    className="nav nav-tabs tabs-left"
                     role="tablist"
                     style={{ backgroundColor: "#c7f5c1", borderRadius:"10px" }}
-                    className="ms-1"
+                    class="ms-1"
                   >
                     SOFTWARE DEVELOPMENT
                     <li className="ms-3">Consultany Services</li>
@@ -71,8 +71,8 @@ function Service() {
                     <li className="ms-3">Website and Portals</li>
                     <li className="ms-3">Hosting</li>
                     <li className="ms-3">Web Designing</li>
-                    <li className="ms-3">MObile Application</li>
-                    {/* <li role="presentation" class="active py-3 text-center">
+                    <li className="ms-3">Mobile Application</li>
+                    {/* <li role="presentation" className="active py-3 text-center">
                       <a
                         href="#custom_software_development"
                         aria-controls="home"
@@ -174,32 +174,32 @@ function Service() {
                     </li> */}
                   </ul>
                 </div>
-                <div class="col-md-9 col-sm-9 col-xs-12">
-                  <div class="tab-content">
+                <div className="col-md-9 col-sm-9 col-xs-12">
+                  <div className="tab-content">
                     <div
                       role="tabpanel"
-                      class="tab-pane active"
+                      className="tab-pane active"
                       id="custom_software_development"
                     >
-                      <div class="row">
-                        <div class="Service_content" id="customSoftDevl">
-                          <div class="col-md-12 col-sm-12 col-xs-12">
-                            <h2 class="feature_title">
+                      <div className="row">
+                        <div className="Service_content" id="customSoftDevl">
+                          <div className="col-md-12 col-sm-12 col-xs-12">
+                            <h2 className="feature_title">
                               Custom Software Development
                             </h2>
                           </div>
                           <div className="row">
-                            <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div className="col-md-6 col-sm-6 col-xs-12">
                               <img
                                 src={custom}
-                                class="img-responsive"
+                                className="img-responsive"
                                 alt="software-development"
                                 width="400"
                                 height="350"
                               />
                             </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                              <div class="Ser_Cont">
+                            <div className="col-md-6 col-sm-6 col-xs-12">
+                              <div className="Ser_Cont">
                                 <p>
                                   CodeLover Technology is a global IT company
                                   with a proven track record of excellence in
@@ -224,7 +224,7 @@ function Service() {
                             </div>
                           </div>
 
-                          <div class="clearfix"></div>
+                          <div className="clearfix"></div>
                         </div>
                       </div>
                     </div>
@@ -741,18 +741,18 @@ function Service() {
 
                 {/*fourth container of about */}
                 <div className="row mt-5">
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="Ser_Cont" style={{minHeight:"0px"}}>
+                <div className="col-md-6 col-sm-6 col-xs-12">
+                    <div className="Ser_Cont" style={{minHeight:"0px"}}>
                         <p className="text-white">All-round website development services from design to maintenance with web experts websites With Team Work.  </p>
                     </div>
                     <h2 style={{color:"#fcba03"}}>Responsive Website Design Packages</h2>
                     <div className="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12 ">
+                    <div className="col-md-6 col-sm-6 col-xs-12 ">
                         <div id="Star">
                             <h2>STARTER</h2>
-                            <h3><i class="fa fa-inr"></i> 10,000/-</h3>
+                            <h3><i className="fa fa-inr"></i> 10,000/-</h3>
                             <hr></hr>
-                            <div class="cont_Star text-white">
+                            <div className="cont_Star text-white">
                                 <p>• Up to 5 Pages</p>
                                 <p>• 2 design concepts</p>
                                 <p>• Mobile responsive layout</p>
@@ -766,12 +766,12 @@ function Service() {
                             <h4>Turnaround time = 1 week</h4>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div className="col-md-6 col-sm-6 col-xs-12">
                         <div id="BestBuy">
                             <h2>BEST- BUY</h2>
-                            <h3><i class="fa fa-inr"></i> 20,000/-</h3>
+                            <h3><i className="fa fa-inr"></i> 20,000/-</h3>
                             <hr></hr>
-                            <div class="cont_BestBuy text-white">
+                            <div className="cont_BestBuy text-white">
                                 <p>• Up to 10 Pages</p>
                                 <p>• 2 design concepts</p>
                                 <p>• Mobile responsive layout</p>
@@ -788,7 +788,7 @@ function Service() {
                     </div>
                     </div>
                
-                    <div class="clearfix"></div>
+                    <div className="clearfix"></div>
                 </div>
                 
                   <div className="col-md-6 col-sm-12 mb-3 mb-lg-0">

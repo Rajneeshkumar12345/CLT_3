@@ -18,7 +18,7 @@ const Technology = () => {
       {/* <div className="image">
           <img src="CodeLoverTech_Logo.png" width="250" height="80" className="mt-2" style={{marginLeft:"70px"}}></img>
         </div> */}
-        <div className="container container_item py-5 mt-2">
+        <div className="container container_item py-5">
           <div className="content_item text-white">
             <h3 className="text-center">WE BELIEVE</h3>
             <p className="card-text ">

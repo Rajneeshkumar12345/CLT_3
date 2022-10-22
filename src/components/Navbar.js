@@ -8,6 +8,7 @@ import "./Navbar.css";
 // import LinkedInIcon from "@mui/icons-material/LinkedIn";
 // import Main from "../images/Main.png";
 // import Main2 from "../images/Main2.png";
+import logo from "../images/CodeLoverTech_Logo.png"
 
 const Navbar = () => {
 
@@ -15,11 +16,6 @@ const Navbar = () => {
     <>
      
      {/* <div className="con">
-    
-
-   
-
-  
   </div>
   <div className="landing_page">
     <div className="menu">
@@ -48,14 +44,16 @@ const Navbar = () => {
   </div>
 </div> */}
 
-
 <div className="menu-wrap">
         <input type="checkbox" className="toggler"/>
         <div className="hamburger"><div></div></div>
-        <div className="image py-2" >
-          <img src="CodeLoverTech_Logo.png" width="250" height="80" className="" style={{marginLeft:"70px"}}></img>
+        <div className="image py-2 " >
+          <img src={logo} width="250" height="80" className="" style={{marginLeft:"70px"}}></img>
         </div>
-        <div className="menu">
+        {/* <div className="socialMedia text-white">
+          <h6>Hello Social media</h6>
+        </div> */}
+        <div className="menu ">
 <div>
   <div>
   <nav className="navbar navbar-expand-lg main_nav">
@@ -210,6 +208,29 @@ const Navbar = () => {
 
         </div>
     </div>
+
+
+    {/* <header className="showcase">
+        <div className="container showcase-inner">
+            <h1>Binge</h1>
+            <p>Match your Jacket class with luxury and comfort.</p>
+            <a href="http://Youtube.com/c/ZaidIrfanKhan" target="_blank" className="btnn">Buy</a>
+        </div>
+        <div className="contact-links">
+            <a href="https://www.instagram.com/zaidirfankhan/?hl=en" target="_blank" 
+               className="btn contact-details"><i className="fab fa-instagram"></i>
+               </a>
+            <a
+               href="https://twitter.com/ZaidIrfanKhan"
+               target="_blank"
+               className="btn contact-details"><i className="fab fa-twitter"></i>
+              </a>
+            <a href="https://codepen.io/zaidik" target="_blank" className="btn contact-details"><i className="fab fa-codepen"></i></a>
+            <a href="https://github.com/ZaidKhan144" target="_blank" className="btn contact-details"> <i className="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/zaid-irfan-khan-9a4b964b/" target="_blank" className="btn contact-details"><i className="fab fa-linkedin"></i></a>
+            <a href="mailto:zaidirfan.945@gmail.com" className="btn contact-details"><i className="far fa-envelope"></i></a>
+          </div>
+    </header> */}
 
     </>
   );

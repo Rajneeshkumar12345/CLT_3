@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <>
       <div className="home_app">
-        <div className="typewriter">
+        <div className="typewriter col-md-12 col-sm-12 ">
           <Typewriter
             onInit={(typewriter) => {
               typewriter
@@ -45,7 +45,8 @@ const Home = () => {
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString("CodeLover Technology")
-                .start(true);
+                 .start(true);
+                // .autoStart();
             }}
           />
         </div>
@@ -324,31 +325,31 @@ const Home = () => {
 
         {/* our Quality  */}
 
-        <section class="our-approch-wrapp gap-top">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <div class="our-approch-title mt-5">
+        <section className="our-approch-wrapp gap-top">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <div className="our-approch-title mt-5">
                   <h1>OUR APPROACH FROM START TO GROWTH</h1>
                 </div>
-                <div class="our-approch-sub-title">
+                <div className="our-approch-sub-title">
                   <h5>To fuel your business by connecting all the dots like
                   Research, Design, Development, Content &amp; Marketing</h5>
                 </div>
               </div>
             </div>
-            <div class="row our-approch-image-content-wrapp align-items-center">
-              <div class="col-md-6 col-sm-12 our-approch-image-wrapp">
+            <div className="row our-approch-image-content-wrapp align-items-center">
+              <div className="col-md-6 col-sm-12 our-approch-image-wrapp">
                 <img
                   src={clt_Research}
                  className="img-fluid"
                   alt=""
                 />
               </div>
-              <div class="col-md-6 col-sm-12 our-approch-content-wrapp">
-                <div class="our-app-content-title">
+              <div className="col-md-6 col-sm-12 our-approch-content-wrapp">
+                <div className="our-app-content-title">
                   <span><h3>We do</h3></span>{" "}
-                  <span class="blue-text" style={{color:"rgba(247, 7, 131, 0.8)"}}><h1>Success Probability Research</h1></span>
+                  <span className="blue-text" style={{color:"rgba(247, 7, 131, 0.8)"}}><h1>Success Probability Research</h1></span>
                   <span><h3>before accepting your project</h3></span>
                  
                 </div>
@@ -401,7 +402,7 @@ const Home = () => {
                             Our partnership with CodeLover Technology helped us
                             create and build a digital presence that represents
                             our offering and that is aligned with our name
-                            “truMe”. Their design sense, UX expertise and
+                            “IHMCS”. Their design sense, UX expertise and
                             digital marketing capabilities have built our online
                             presence and helped source leads and business
                             opportunities, which was the brief given to them. We
