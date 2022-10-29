@@ -111,3 +111,55 @@
     background-image: url(../images/ourbaner.png);
     border-radius: 10px;
 }
+
+
+
+
+  /* our Testimonials */
+  .client {
+    width: 100%;
+    height: 100%;
+    /* background-color: #2945df; */
+    background-color: #6d7aed;
+  
+  }
+  .t-card {
+    padding: 1.8125rem 1.125rem;
+    background-color: rgba(15, 3, 106, 0.73);
+    border-radius: 1.25rem;
+    color: white;
+    height: auto;
+}
+
+.arrow-down {
+    width: 0;
+    height: 10;
+    border-left: 1.5625rem solid transparent;
+    border-right: 1.5625rem solid transparent;
+    border-top: 1.25rem solid rgba(15, 3, 106, 0.73);
+    
+}
+
+.testimonial_content{
+  text-align: justify;
+}
+
+
+@media (max-width: 767px){
+.gap-top {
+    margin-top: 50px;
+}
+}
+
+.succes-text{
+text-align: justify;
+color:#141416;
+font-size: 20px;
+font-weight: 600;
+}
+
+.our-approch-title{
+  font-weight: 650;
+  font-size:50px;
+  
+}

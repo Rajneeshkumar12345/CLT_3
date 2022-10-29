@@ -26,6 +26,7 @@ const Navbar = () => {
           <div></div>
         </div>
         <div className="image py-2 ">
+          <a href='/'>
           <img
             src={logo}
             alt="logo"
@@ -34,6 +35,8 @@ const Navbar = () => {
             className="OMG"
             style={{ marginLeft: "70px" }}
           ></img>
+          </a>
+        
         </div>
         {/* <div className="socialMedia text-white">
           <h6>Hello Social media</h6>

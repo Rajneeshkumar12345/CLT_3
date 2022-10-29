@@ -4,19 +4,6 @@
 }
  
 
-/* typewriter css start here */
-.typewriter {
-  font-family: sans-serif;
-  font-weight:750;
-  font-size:80px;
-  text-align: center;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  color: #c2f50c;
-  min-height:100vh;
-  background: url('https://static.vecteezy.com/system/resources/previews/000/180/409/original/software-engineers-vector.png');
-}
 
 
 .Footer_description{

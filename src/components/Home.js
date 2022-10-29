@@ -17,13 +17,7 @@ const Home = () => {
   useEffect(() => {
     document.title = "Home page - CodeLover Technology Pvt Ltd";
   });
-  <Typewriter
-  options={{
-    strings: ['Hello', 'World'],
-    autoStart: true,
-    loop: true,
-  }}
-/>
+
   return (
     <>
       <div className="home_app">
@@ -32,7 +26,7 @@ const Home = () => {
             onInit={(typewriter) => {
               typewriter
 
-                .typeString(" Web Design")
+                .typeString("Web Design")
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString("Web Development")
@@ -92,15 +86,15 @@ const Home = () => {
             }}
           />
         </div>
-
-        <div className="home" style={{ backgroundColor: "#31abd4" }}>
+        {/* #31abd4    #425b70  #42617a  #3d5f7a*/}
+        <div className="home" style={{ backgroundColor: "#3e5e78" }}>
           {/* 10 Card Container start from here */}
           <div className="container">
             <div className="row">
               {/* Card Number 1 */}
               <div
                 className="card-wrapper card-image-title-description col-lg-4 col-md-6 col-sm-12"
-                style={{ marginTop: "-5rem" }}
+                style={{ marginTop: "3rem" }}
               >
                 <div className="card">
                   <div className="card-img-wrapper">
@@ -129,7 +123,7 @@ const Home = () => {
 
               <div
                 className="card-wrapper card-image-title-description col-lg-4 col-md-6 col-sm-12"
-                style={{ marginTop: "-5rem" }}
+                style={{ marginTop: "3rem" }}
               >
                 <div className="card">
                   <div className="card-img-wrapper">
@@ -157,7 +151,7 @@ const Home = () => {
 
               <div
                 className="card-wrapper card-image-title-description col-lg-4 col-md-6 col-sm-12"
-                style={{ marginTop: "-5rem" }}
+                style={{ marginTop: "3rem" }}
               >
                 <div className="card">
                   <div className="card-img-wrapper">
@@ -499,7 +493,7 @@ const Home = () => {
                   <li>PPT Design</li>
                   <li>Corporate Branding</li>
                 </ul>
-      <a href="/Explore">Read More</a>
+      <a href="/Ui">Read More</a>
     </div>
   </div>
   <div class="box">
@@ -566,7 +560,7 @@ const Home = () => {
                   className="bg-white mb-4 mt-0 d-inline-block mx-auto"
                   style={{ width: "250px", height: "7px" }}
                 />
-                <p className="p-text text-white">What our clients are saying</p>
+                <p className="p-text text-white">What they have to say about us</p>
               </div>
             </div>
             <div className="row align-items-md-center text-white">
