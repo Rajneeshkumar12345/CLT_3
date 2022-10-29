@@ -23,6 +23,7 @@ html,body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   display: table;
+  
 }
 
 .fixed-bg h1 {
@@ -36,21 +37,57 @@ html,body {
   padding: 10px 70px;
   color: #f5efef;
 }
+.section-title{
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+  font-size: 50px;
+  font-weight: 600;
+}
 
 /* first section */
 
 .bg-1 {
-  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201123/pngtree-digital-technology-low-poly-design-image_499020.jpg');
+  background-image: url(../images/Back1.jpg);
 }
 
-/* third section */
+
 
 .bg-2 {
-  background-image: url('https://static.vecteezy.com/system/resources/previews/000/180/409/original/software-engineers-vector.png');
+  background-image: url(../images/Back2.jpg);
 }
 
-/* fifth section */
+
 
 .bg-3 {
-  background-image: url('https://img.lovepik.com//photo/50007/7678.jpg_300.jpg');
+  background-image: url(../images/Back3.webp);
+}
+
+.bg-4 {
+  background-image: url(../images/SD.png);
+}
+
+
+
+.bg-5 {
+  background-image: url(../images/SSL.png);
+}
+
+
+
+.bg-6 {
+  background-image: url(../images/Outsourcing.png);
+}
+
+
+
+.text-high{
+  font-size: 40px;
+  font-weight: 700;
+  color:rgba(239, 44, 144, 0.91)
+}
+
+.my_text {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 400;
 }

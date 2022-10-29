@@ -3,18 +3,23 @@ import './App.css';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import ScrollToTop from './components/ScrollToTop';
 import Contact from './components/Contact';
 import Technology from './components/Technology';
 import Projects from './components/Projects';
 import Reaserch from './components/Reaserch';
 import Products from './components/Products';
-import Ckeck from './components/Ckeck';
+// import Ckeck from './components/Ckeck';
 // import Typewriter from './components/Typewriter';
 
 import About from './components/About';
 import Service from './components/Service';
+import Explore from './components/Explore';
+import Android from './components/Android';
+import Ui from './components/Ui';
+import Outsourcing from './components/Outsourcing';
+import Artificial from './components/Artificial';
 // import useDocumentTitle from './components/useDocumentTitle'
 
 
@@ -57,6 +62,12 @@ function App() {
           <Route exact path="/Reaserch" element={<Reaserch/>}></Route>
           <Route exact path="/Contact" element={<Contact/>}></Route>
           <Route exact path="/Product" element={<Products/>}></Route>
+          <Route exact path="/Explore" element={<Explore/>}></Route>
+          <Route exact path="/Android" element={<Android/>}></Route>
+          <Route exact path="/Ui" element={<Ui/>}></Route>
+          <Route exact path="/Outsourcing" element={<Outsourcing/>}></Route>
+          <Route exact path="/Artificial" element={<Artificial/>}></Route>
+          <Route exact path="*" element={<Navigate to="/"/>}></Route>
         </Routes>
         <Footer/>
         </ScrollToTop>

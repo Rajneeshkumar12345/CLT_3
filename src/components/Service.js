@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import hosting from "../images/web-hosting4.jpg";
 import custom from "../images/Custom_Software_Development.jpg";
 import "./service.css";
@@ -11,25 +11,31 @@ import MobileApp from "../images/MobileApp.png";
 import Backup from "../images/Backup.jpg";
 import SSL from "../images/SSL.png";
 import Signature from "../images/Signature.png";
-import Portal from "../images/Portal.png"
+import Portal from "../images/Portal.png";
+import business from "../images/business.png";
+import Reaserch from "../images/Reaserch.png";
 
 import ReactReadMoreReadLess from "react-read-more-read-less";
 
 function Service() {
   useEffect(() => {
-    document.title = "Service page - CodeLover Technology Pvt Ltd"
-})
+    document.title = "Service page - CodeLover Technology Pvt Ltd";
+  });
   return (
     <>
       <div className="body-content" style={{ backgroundColor: "#b8d0d1" }}>
-      {/* <div className="image">
+        {/* <div className="image">
           <img src="CodeLoverTech_Logo.png" width="250" height="80" className="mt-2" style={{marginLeft:"70px"}}></img>
         </div> */}
-        <div className="container" style={{marginTop:"0rem"}}>
+        <div className="container" style={{ marginTop: "0rem" }}>
           <div className="row">
             <div className="col-md-12 col-sm-12 col-xs-12 ">
-              <h1 className="section-title text-center" style={{marginTop:"7rem"}}>
-                CODELOVER <span style={{color:"#d60909"}}>TECHNOLOGY</span> SERVICES
+              <h1
+                className="section-title text-center"
+                style={{ marginTop: "7rem" }}
+              >
+                CODELOVER <span style={{ color: "#d60909" }}>TECHNOLOGY</span>{" "}
+                SERVICES
               </h1>
               <p className="service_justify">
                 <b>CodeLover Technology</b> is a global IT company with a proven
@@ -60,7 +66,7 @@ function Service() {
                   <ul
                     className="nav nav-tabs tabs-left"
                     role="tablist"
-                    style={{ backgroundColor: "#c7f5c1", borderRadius:"10px" }}
+                    style={{ backgroundColor: "#c7f5c1", borderRadius: "10px" }}
                     class="ms-1"
                   >
                     SOFTWARE DEVELOPMENT
@@ -741,56 +747,65 @@ function Service() {
 
                 {/*fourth container of about */}
                 <div className="row mt-5">
-                <div className="col-md-6 col-sm-6 col-xs-12">
-                    <div className="Ser_Cont" style={{minHeight:"0px"}}>
-                        <p className="text-white">All-round website development services from design to maintenance with web experts websites With Team Work.  </p>
+                  <div className="col-md-6 col-sm-6 col-xs-12">
+                    <div className="Ser_Cont" style={{ minHeight: "0px" }}>
+                      <p className="text-white">
+                        All-round website development services from design to
+                        maintenance with web experts websites With Team Work.{" "}
+                      </p>
                     </div>
-                    <h2 style={{color:"#fcba03"}}>Responsive Website Design Packages</h2>
+                    <h2 style={{ color: "#fcba03" }}>
+                      Responsive Website Design Packages
+                    </h2>
                     <div className="row">
-                    <div className="col-md-6 col-sm-6 col-xs-12 ">
+                      <div className="col-md-6 col-sm-6 col-xs-12 ">
                         <div id="Star">
-                            <h2>STARTER</h2>
-                            <h3><i className="fa fa-inr"></i> 10,000/-</h3>
-                            <hr></hr>
-                            <div className="cont_Star text-white">
-                                <p>• Up to 5 Pages</p>
-                                <p>• 2 design concepts</p>
-                                <p>• Mobile responsive layout</p>
-                                <p>• Image Slider</p>
-                                <p>• Contact form</p>
-                                <p>• Google map</p>
-                                <p>• FREE Social Media integration</p>
-                                <p>• FREE Hosting for one year *</p>
-                            </div>
-                            <hr></hr>
-                            <h4>Turnaround time = 1 week</h4>
+                          <h2>STARTER</h2>
+                          <h3>
+                            <i className="fa fa-inr"></i> 10,000/-
+                          </h3>
+                          <hr></hr>
+                          <div className="cont_Star text-white">
+                            <p>• Up to 5 Pages</p>
+                            <p>• 2 design concepts</p>
+                            <p>• Mobile responsive layout</p>
+                            <p>• Image Slider</p>
+                            <p>• Contact form</p>
+                            <p>• Google map</p>
+                            <p>• FREE Social Media integration</p>
+                            <p>• FREE Hosting for one year *</p>
+                          </div>
+                          <hr></hr>
+                          <h4>Turnaround time = 1 week</h4>
                         </div>
-                    </div>
-                    <div className="col-md-6 col-sm-6 col-xs-12">
+                      </div>
+                      <div className="col-md-6 col-sm-6 col-xs-12">
                         <div id="BestBuy">
-                            <h2>BEST- BUY</h2>
-                            <h3><i className="fa fa-inr"></i> 20,000/-</h3>
-                            <hr></hr>
-                            <div className="cont_BestBuy text-white">
-                                <p>• Up to 10 Pages</p>
-                                <p>• 2 design concepts</p>
-                                <p>• Mobile responsive layout</p>
-                                <p>• Image Slider</p>
-                                <p>• Contact form</p>
-                                <p>• Google map</p>
-                                <p>• FREE Social Media integration</p>
-                                <p>• FREE Hosting for one year *</p>
-                                <p>• Payment Gateway Integrate</p>
-                            </div>
-                            <hr></hr>
-                            <h4>Turnaround time = 2 week</h4>
+                          <h2>BEST- BUY</h2>
+                          <h3>
+                            <i className="fa fa-inr"></i> 20,000/-
+                          </h3>
+                          <hr></hr>
+                          <div className="cont_BestBuy text-white">
+                            <p>• Up to 10 Pages</p>
+                            <p>• 2 design concepts</p>
+                            <p>• Mobile responsive layout</p>
+                            <p>• Image Slider</p>
+                            <p>• Contact form</p>
+                            <p>• Google map</p>
+                            <p>• FREE Social Media integration</p>
+                            <p>• FREE Hosting for one year *</p>
+                            <p>• Payment Gateway Integrate</p>
+                          </div>
+                          <hr></hr>
+                          <h4>Turnaround time = 2 week</h4>
                         </div>
+                      </div>
                     </div>
-                    </div>
-               
+
                     <div className="clearfix"></div>
-                </div>
-                
+                  </div>
+
                   <div className="col-md-6 col-sm-12 mb-3 mb-lg-0">
                     <div className="hover hover-4 text-white rounded">
                       <img src={Portal} alt="ssl_image" height="350" />
@@ -801,7 +816,7 @@ function Service() {
                             className="font-weight-light"
                             style={{ color: "#1fc410" }}
                           >
-                            Website {" "}
+                            Website{" "}
                           </span>
                           and Portals{" "}
                         </h3>
@@ -813,6 +828,62 @@ function Service() {
             </div>
           </div>
         </div>
+
+        <section class="gap-top service-middle-banner-bottom-wrapp">
+          <div class="container">
+            <div class="row align-items-center service-middle-banner-bottom-block">
+              <div class="col-md-6 ser-mid-banner-bottom-content-block">
+                <div class="ser-ban-bot-title text-high">Research</div>
+                <p></p>
+                <p className="my_text">
+                  We research upon every situation, understand your problems
+                  properly, focus on the main objectives and lead you in the
+                  right direction. We research upon every situation, understand
+                  your problems properly, focus on the main objectives and lead
+                  you in the right direction. Building strategies based on data
+                  – We build strategies on data. No guess work. We check
+                  business data. Audience analytics. Website and social media.
+                  And with data-driven insights in place, a strategy can form.
+                  Our digital strategies are long term plans to achieve your
+                  business goals.
+                </p>
+                <p></p>
+              </div>
+              <div class="col-md-6 ser-mid-banner-bottom-image-block">
+                <img
+                  src={Reaserch}
+                  className="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="row align-items-center service-middle-banner-bottom-block">
+            <div class="col-md-6 ser-mid-banner-bottom-image-block">
+                <img
+                  src={business}
+                  className="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-md-6 ser-mid-banner-bottom-content-block">
+                <div class="ser-ban-bot-title text-high">Business Analysis</div>
+                <p></p>
+                <p className="my_text">
+                  We make it our business to know your business. No cookie
+                  cutter templatized solutions – personalized campaigns. We aim
+                  to keep our clients ahead of the curve. A team of doers &amp;
+                  thinkers, designers &amp; planners, detail &amp; big picture
+                  people. Delivery of quality solutions, on time &amp; within
+                  budget. Pure &amp; simple results oriented – that’s what we
+                  and our clients are here for! That’s the bottom line!!
+                </p>
+                <p></p>
+              </div>
+             
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );

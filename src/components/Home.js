@@ -10,23 +10,65 @@ import Backup from "../images/Backup.png";
 import Signature from "../images/Signature.png";
 import SSL from "../images/SSL.png";
 // import IT_Support from "../images/IT_Support.png";
-import clt_Research from '../images/clt_Research.png';
+import clt_Research from "../images/clt_Research.png";
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
   useEffect(() => {
     document.title = "Home page - CodeLover Technology Pvt Ltd";
   });
+  <Typewriter
+  options={{
+    strings: ['Hello', 'World'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
   return (
     <>
       <div className="home_app">
-        <div className="typewriter col-md-12 col-sm-12 ">
+        <div className="typewriter col-md-12 col-sm-10 ">
           <Typewriter
             onInit={(typewriter) => {
               typewriter
 
                 .typeString(" Web Design")
-
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Web Development")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Digital Marketing")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("IT Infrastructure")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Artificial Intelligence (AI)")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Internet of Things (IOT)")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString(" Web Design")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Web Development")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Digital Marketing")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("IT Infrastructure")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Artificial Intelligence (AI)")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Internet of Things (IOT)")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString(" Web Design")
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString("Web Development")
@@ -45,8 +87,8 @@ const Home = () => {
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString("CodeLover Technology")
-                 .start(true);
-                // .autoStart();
+                .start(true);
+             
             }}
           />
         </div>
@@ -76,7 +118,7 @@ const Home = () => {
                       these skills...
                     </p>
                     <br></br>
-                    <a href="/Service" className="btn btn-primary">
+                    <a href="/Explore" className="btn btn-primary">
                       Read More
                     </a>
                   </div>
@@ -159,7 +201,7 @@ const Home = () => {
                     </p>
                     <br></br>
                     <br></br>
-                    <a href="/Service" className="btn btn-primary">
+                    <a href="/Android" className="btn btn-primary">
                       Read More
                     </a>
                   </div>
@@ -185,7 +227,7 @@ const Home = () => {
                       requirements, our efforts have proved highly resourceful
                       for different organizational...
                     </p>
-                    <a href="/Service" className="btn btn-primary">
+                    <a href="/Outsourcing" className="btn btn-primary">
                       Read More
                     </a>
                   </div>
@@ -333,25 +375,31 @@ const Home = () => {
                   OUR APPROACH FROM START TO GROWTH
                 </div>
                 <div className="our-approch-sub-title">
-                  <h5>To fuel your business by connecting all the dots like
-                  Research, Design, Development, Content &amp; Marketing</h5>
+                  <h5>
+                    To fuel your business by connecting all the dots like
+                    Research, Design, Development, Content &amp; Marketing
+                  </h5>
                 </div>
               </div>
             </div>
             <div className="row our-approch-image-content-wrapp align-items-center">
               <div className="col-md-6 col-sm-12 our-approch-image-wrapp">
-                <img
-                  src={clt_Research}
-                 className="img-fluid"
-                  alt=""
-                />
+                <img src={clt_Research} className="img-fluid" alt="" />
               </div>
               <div className="col-md-6 col-sm-12 our-approch-content-wrapp">
                 <div className="our-app-content-title">
-                  <span><h3>We do</h3></span>{" "}
-                  <span className="blue-text" style={{color:"rgba(247, 7, 131, 0.8)"}}><h1>Success Probability Research</h1></span>
-                  <span><h3>before accepting your project</h3></span>
-                 
+                  <span>
+                    <h3>We do</h3>
+                  </span>{" "}
+                  <span
+                    className="blue-text"
+                    style={{ color: "rgba(247, 7, 131, 0.8)" }}
+                  >
+                    <h1>Success Probability Research</h1>
+                  </span>
+                  <span>
+                    <h3>before accepting your project</h3>
+                  </span>
                 </div>
                 <p className="succes-text">
                   Research is a very important part that we start with, even
@@ -369,75 +417,145 @@ const Home = () => {
           </div>
         </section>
 
-        {/* /* OUR EXPERTISE SECTION START FROM HERE */ }
-                
-	{/* <a href="https://front.codes/" class="logo hover-target" target="_blank">
-		<img src="https://assets.codepen.io/1462889/fcb.png" alt=""/>
-	</a> */}
+        {/* /* OUR EXPERTISE SECTION START FROM HERE */}
 
-<section className="expertise-wrapp" style={{backgroundColor:"#cafcfc"}}>
-<h2 className="text-center">Our Expertise</h2>
-<div class="section full-height over-hide px-4 px-sm-0">
-		<div class="container">
-			<div class="row full-height justify-content-center">
-				<div class="col-lg-10 col-xl-8 align-self-center padding-tb">
-					<div class="section mx-auto text-center slider-height-padding">
-			          	<input class="checkbox frst" type="radio" id="slide-1" name="slider" checked/>
-			          	<label for="slide-1"></label>
-			          	<input class="checkbox scnd" type="radio" name="slider" id="slider-2"/>
-			          	<label for="slider-2"></label>
-			          	<input class="checkbox thrd" type="radio" name="slider" id="slider-3"/>
-			          	<label for="slider-3"></label>
-			          	<input class="checkbox foth" type="radio" name="slider" id="slider-4"/>
-			          	<label for="slider-4"></label>
-						<ul className="Expertise-ul">
-							<li className="Expertise-li">
-								<span>CodeLover Technology</span>
-						    </li>
-							<li className="Expertise-li">
-								<span>CodeLover Technology</span>
-						    </li>
-							<li className="Expertise-li">
-								<span>CodeLover Technology</span>
-						    </li>
-							<li className="Expertise-li">
-								<span>CodeLover Technology</span>
-						    </li>
-					    </ul>
-				    </div>
-			    </div>
-	      	</div>
-	    </div>
-	</div>
-</section>
+    
 
-
-	
-
-
-{/* our Approach start here */}
-
-        <section class="banner-wrapp gap-top">
-      <div class="container">
-          <div class="row align-items-center">
-              <div class="col-md-6 text-center banner-title-block">
-                  <div class="banner-title">Our Approach</div>
+        {/* <section
+          className="expertise-wrapp"
+          style={{ backgroundColor: "#cafcfc" }}
+        >
+          <h2 className="text-center">Our Expertise</h2>
+          <div className="section full-height over-hide px-4 px-sm-0">
+            <div className="container">
+              <div className="row full-height justify-content-center">
+                <div className="col-lg-10 col-xl-8 align-self-center padding-tb">
+                  <div className="section mx-auto text-center slider-height-padding">
+                    <input
+                      className="checkbox frst"
+                      type="radio"
+                      id="slide-1"
+                      name="slider"
+                      checked
+                    />
+                    <label htmlFor="slide-1"></label>
+                    <input
+                      className="checkbox scnd"
+                      type="radio"
+                      name="slider"
+                      id="slider-2"
+                    />
+                    <label htmlFor="slider-2"></label>
+                    <input
+                      className="checkbox thrd"
+                      type="radio"
+                      name="slider"
+                      id="slider-3"
+                    />
+                    <label htmlFor="slider-3"></label>
+                    <input
+                      className="checkbox foth"
+                      type="radio"
+                      name="slider"
+                      id="slider-4"
+                    />
+                    <label htmlFor="slider-4"></label>
+                    <ul className="Expertise-ul">
+                      <li className="Expertise-li">
+                        <span>CodeLover Technology</span>
+                      </li>
+                      <li className="Expertise-li">
+                        <span>CodeLover Technology</span>
+                      </li>
+                      <li className="Expertise-li">
+                        <span>CodeLover Technology</span>
+                      </li>
+                      <li className="Expertise-li">
+                        <span>CodeLover Technology</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-6 banner-cnt-block approach-text">
-                  <p>CodeLover Technology aids clients to embrace technology so they can reshape their business, become more proactive, and propels them towards market leadership.</p>
-              </div>
+            </div>
           </div>
-      </div>
-  </section>
+        </section> */}
 
 
+    {/* ************************ OUR EXPERTISE START HERE ************************* */}
+
+<h2 className="text-center text-white py-3 Expertise">Our Expertise</h2>
+<div class="contempt" style={{marginTop:"-1rem"}}>
+  
+  <div class="box">
+    <span></span>
+    <div class="content">
+      <h2>Design</h2>
+                <ul>
+                  <li>Web Design</li>
+                  <li>App Design</li>
+                  <li>UI/UX Design</li>
+                  <li>Logo Design</li>
+                  <li>PPT Design</li>
+                  <li>Corporate Branding</li>
+                </ul>
+      <a href="/Explore">Read More</a>
+    </div>
+  </div>
+  <div class="box">
+    <span></span>
+    <div class="content">
+      <h2>Development</h2>
+      <ul>
+        <li>Website Development</li>
+        <li>Mobile App Development</li>
+        <li>IOS Mobile App Development</li>
+        <li>Testing and Quality Assurance</li>
+        <li>Ecommerce Development</li>
+      
+      </ul>
+      <a href="/Android">Read More</a>
+    </div>
+  </div>
+  <div class="box">
+    <span></span>
+    <div class="content">
+      <h2>IT and AI</h2>
+      <ul>
+        <li>Artificial Intelligence</li>
+        <li>Cloud Computing</li>
+        <li>Data Warehouse</li>
+        <li>Business Intelligence</li>
+        <li>Data Center Consulting</li>
+        <li>Resource Augmentation</li>
+      </ul>
+      <a href="/Artificial">Read More</a>
+    </div>
+  </div>
+</div>
 
 
+        {/* ************************************* */}
+        {/* our Approach start here */}
 
-
+        <section className="banner-wrapp gap-top">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-md-6 text-center banner-title-block">
+                <div className="banner-title">Our Approach</div>
+              </div>
+              <div className="col-md-6 banner-cnt-block approach-text">
+                <p>
+                  CodeLover Technology aids clients to embrace technology so
+                  they can reshape their business, become more proactive, and
+                  propels them towards market leadership.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* our Testimonial start here  */}
-
 
         <section className="client pt-3 pb-5">
           <div className="container">
@@ -446,7 +564,7 @@ const Home = () => {
                 <h3 className="display-6 fw-bold text-white">Testimonials</h3>
                 <hr
                   className="bg-white mb-4 mt-0 d-inline-block mx-auto"
-                  style={{ width: "100px", height: "3px" }}
+                  style={{ width: "250px", height: "7px" }}
                 />
                 <p className="p-text text-white">What our clients are saying</p>
               </div>
@@ -488,7 +606,9 @@ const Home = () => {
                           <div className="col-sm-2 pt-3">
                             <img
                               src={SSL}
-                              className="rounded-circle img-responsive img-fluid"
+                              width="130"
+                              height="110"
+                              className="rounded-circle img-responsive"
                             />
                           </div>
                           <div className="col-sm-10">
@@ -532,7 +652,9 @@ const Home = () => {
                           <div className="col-sm-2 pt-4">
                             <img
                               src={WebD}
-                              className="rounded-circle img-responsive img-fluid"
+                              width="130"
+                              height="110"
+                              className="rounded-circle img-responsive "
                             />
                           </div>
                           <div className="col-sm-10">
@@ -576,7 +698,9 @@ const Home = () => {
                           <div className="col-sm-2 pt-4 align-items-center">
                             <img
                               src={Signature}
-                              className="rounded-circle img-responsive img-fluid"
+                              width="130"
+                              height="110"
+                              className="rounded-circle img-responsive"
                             />
                           </div>
                           <div className="col-sm-10">
@@ -617,7 +741,9 @@ const Home = () => {
                           <div className="col-sm-2 pt-4 align-items-center">
                             <img
                               src={Backup}
-                              className="rounded-circle img-responsive img-fluid"
+                              width="130"
+                              height="142"
+                              className="rounded-circle img-responsive"
                             />
                           </div>
                           <div className="col-sm-10">

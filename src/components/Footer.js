@@ -1,7 +1,6 @@
 import React from "react";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import TwitterIcon from "@mui/icons-material/Twitter";
-// import GoogleIcon from "@mui/icons-material/Google";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link } from "react-router-dom";
@@ -78,9 +77,6 @@ const Footer = () => {
                     <img src={logo} width="250" height="80" />
                   </div>
                  <br></br>
-                  {/* <div className="text-dark ">
-                    CIN: U72900DL2018PTC328015
-                  </div> */}
                   <p className="text-dark">
                   CIN: U72900DL2018PTC328015
                   </p>
@@ -161,9 +157,6 @@ const Footer = () => {
                   />
                   <div className="form-group text-dark">
                     <div>
-                      {/* <a href="#!" className="text-white">
-                      Your Account
-                    </a> */}
                       <div className="h6">Software Development</div>
                       <input
                         type="number"
@@ -199,7 +192,6 @@ const Footer = () => {
                 </div>
 
                 <div className="col-lg-3 col-md-6 mx-auto mt-4">
-                  {/* <div className="col-md-6 maps" style={{ marginTop: "25px" }}> */}
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0286487778444!2d77.2961187144049!3d28.53885859506681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce7a996eb0453%3A0x94eb8da0bdb3c025!2sCodeLover%20Technology%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1665660309764!5m2!1sen!2sin"
                     width="270"
@@ -210,7 +202,6 @@ const Footer = () => {
                     style={{ border: "0" }}
                     allowfullscreeen="true"
                   ></iframe>
-                  {/* </div> */}
                 </div>
               </div>
             </div>
@@ -221,13 +212,6 @@ const Footer = () => {
             style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
           >
             © 2022 - 2032 CodeLover Technology Pvt Ltd. All Right Reserved.
-            {/* <a
-              className="text-white"
-              href="https://codelovertechnology.com/"
-              target="_blank"  style={{marginLeft:"3px"}}
-            >
-              CodeLover Technology Pvt. Ltd.
-            </a> */}
           </div>
         </footer>
       </div>
@@ -238,25 +222,8 @@ const Footer = () => {
 export default Footer;
 
 {
-  /* <h6 className="text-uppercase fw-bold">Contact</h6>
-                  <hr
-                    className="mb-4 mt-0 d-inline-block mx-auto"
-                    style={{
-                      width: " 60px",
-                      backgroundColor: "#7c4dff",
-                      height: "2px",
-                    }}
-                  />
-                  <p>
-                    <i className="fas fa-home mr-3"></i> New York, NY 10012, US
-                  </p>
-                  <p>
-                    <i className="fas fa-envelope mr-3"></i> info@example.com
-                  </p>
-                  <p>
-                    <i className="fas fa-phone mr-3"></i> + 01 234 567 88
-                  </p>
-                  <p>
-                    <i className="fas fa-print mr-3"></i> + 01 234 567 89
-                  </p> */
 }
+
+
+
+

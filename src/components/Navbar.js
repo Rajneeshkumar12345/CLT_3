@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 // import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
@@ -11,36 +11,14 @@ import "./Navbar.css";
 import logo from "../images/CodeLoverTech_Logo.png";
 
 const Navbar = () => {
+  const[home, setHome] = useState(false)
+
+  const homeChange = () => {
+      setHome("/")
+      
+  }
   return (
     <>
-      {/* <div className="con">
-  </div>
-  <div className="landing_page">
-    <div className="menu">
-      <label htmlFor="menuBtn">
-        <i className="fas fa-bars"></i>
-      </label>
-    </div>
-    <div className="card-image">
-          <img src={Main2} className="card-img img-fluid" alt="..." />
-          <div className="card-img-overlay">
-            <div className="Iam">
-              <b>
-                <div className="innerIam">
-                  Design
-                  <br />
-                  Development
-                  <br />
-                  Marketing
-                  <br />
-                  Infrastructure ans AI
-                </div>
-              </b>
-            </div>
-          </div>
-        </div>
-  </div>
-</div> */}
 
       <div className="menu-wrap">
         <input type="checkbox" className="toggler" />
@@ -50,9 +28,10 @@ const Navbar = () => {
         <div className="image py-2 ">
           <img
             src={logo}
+            alt="logo"
             width="250"
             height="80"
-            className=""
+            className="OMG"
             style={{ marginLeft: "70px" }}
           ></img>
         </div>
@@ -82,6 +61,7 @@ const Navbar = () => {
                           className="Navbar_heading nav-link active"
                           aria-current="page"
                           to="/"
+                          onClick={homeChange}
                         >
                           HOME
                         </Link>
@@ -186,6 +166,11 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
+
+
+
+
 
       {/* <header className="showcase">
         <div className="container showcase-inner">

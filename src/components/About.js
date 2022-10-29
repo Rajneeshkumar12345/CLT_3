@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import company from "../images/Company_Profile.jpg"
 import vision from "../images/Mission_Vision.jpg"
 import mission from "../images/Our_Vision.jpg"
-
+import { Link } from "react-router-dom";
 function About() {
     useEffect(() => {
         document.title = "About page - CodeLover Technology Pvt Ltd"
@@ -16,7 +16,7 @@ function About() {
 <div className="container">
     <div className="row">
         <div className="col-md-12 col-sm-12 col-xs-12">
-            <h1 className="section-title text-center py-3">CodeLover Technology Profile</h1>
+            <h1 className="section-title text-center">CodeLover Technology Profile</h1>
             
             <img src={company} style={{width:"100%"}}/>
 
@@ -90,11 +90,6 @@ function About() {
         </div>
     </div>
 </div>
-
-
-
-        
-
     </div>
     </>
   )

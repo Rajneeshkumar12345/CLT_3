@@ -25,3 +25,16 @@ text-align: justify;
   .service_justify{
     text-align: justify;
   }
+
+
+  .text-high{
+    font-size: 40px;
+    font-weight: 700;
+    color:rgba(239, 44, 144, 0.91)
+  }
+
+  .my_text {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+  }

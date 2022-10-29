@@ -1,0 +1,114 @@
+
+.banner-sm-wrapp{
+    background-image: url(../images/Explore1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.xs-banner {
+    height: 450px;
+}
+/* .web{
+    font-weight: 500;
+    font-size: 50px !important;
+    line-height: 52px;
+} */
+
+@media (max-width: 767px){
+.xs-banner, .page-banner-block, .banner-sm-wrapp {
+    border-radius: 0 0 30px 30px;
+}
+}
+
+.relative-banner-first-title{
+  margin-top: 20rem;
+ font-weight: 400;
+  font-size:20px;
+}
+.relative-banner-third-title{
+    font-weight: 400;
+  font-size:17px; 
+}
+
+
+.relative-banner .banner-sm-content-block {
+    position: relative !important;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+}
+
+
+.xs-banner .banner-sm-content-block {
+    /* position: absolute; */
+    left: 50%;
+    transform: translateX(-50%);
+    /* text-align: center; */
+}
+
+.banner-sm-content-block {
+    /* position: absolute; */
+    bottom: 50px;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title-48{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.bluenew-text{
+    color: rgba(239, 44, 144, 0.91);
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.Web_content{
+    text-align:justify;
+    font-size: 17px;
+    font-weight: 400;
+    
+}
+
+.service-detail-one-wrapp{
+    margin-top: 5rem;
+}
+
+
+.case-studies-detail-content{
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.case-study-detail-title, .case-study-detail-title span {
+    font-size: 50px !important;
+    line-height: 52px;
+    font-weight: 500;
+    color: rgba(96, 72, 249, 0.8);
+   
+}
+
+/* .case-studies-detail-title-block{
+    background-image: url(../images/ourbaner.png);
+} */
+
+.case-studies-title-content-wrapp{
+    background-image: url(../images/ourbaner.png);
+    border-radius: 10px;
+}
