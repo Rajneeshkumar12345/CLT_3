@@ -9,19 +9,20 @@ import "./Navbar.css";
 // import Main from "../images/Main.png";
 // import Main2 from "../images/Main2.png";
 import logo from "../images/CodeLoverTech_Logo.png";
+import Home from "./Home";
+
 
 const Navbar = () => {
-  const[home, setHome] = useState(false)
+  const[isShown, setIsShown] = useState(false)
 
-  const homeChange = () => {
-      setHome("/")
-      
+  const handleClick = () => {
+    setIsShown(true);  
   }
   return (
     <>
 
       <div className="menu-wrap">
-        <input type="checkbox" className="toggler" />
+        <input type="checkbox" className="toggler"/>
         <div className="hamburger">
           <div></div>
         </div>
@@ -64,10 +65,11 @@ const Navbar = () => {
                           className="Navbar_heading nav-link active"
                           aria-current="page"
                           to="/"
-                          onClick={homeChange}
+                          onClick={handleClick}
                         >
                           HOME
                         </Link>
+                        
                       </li>
                       <li>
                         <Link
@@ -147,7 +149,7 @@ const Navbar = () => {
                         <Link
                           className="Navbar_heading nav-link active"
                           aria-current="page"
-                          to="/Product"
+                          to="/Products"
                         >
                           PRODUCT
                         </Link>
