@@ -13,6 +13,8 @@ import SSL from "../images/SSL.png";
 import clt_Research from "../images/clt_Research.png";
 import Typewriter from "typewriter-effect";
 
+import { Link } from "react-router-dom";
+
 const Home = () => {
   useEffect(() => {
     document.title = "Home page - CodeLover Technology Pvt Ltd";
@@ -112,9 +114,10 @@ const Home = () => {
                       these skills...
                     </p>
                     <br></br>
-                    <a href="/Explore" className="btn btn-primary">
+                    {/* <a href="/Explore" className="btn btn-primary">
                       Read More
-                    </a>
+                    </a> */}
+                    <Link to='/Explore' className="btn btn-primary">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -140,9 +143,10 @@ const Home = () => {
                       maintenance with web experts websites With Team Work...
                     </p>
                     <br></br>
-                    <a href="/Service" className="btn btn-primary">
+                    {/* <a href="/Service" className="btn btn-primary">
                       Read More
-                    </a>
+                    </a> */}
+                    <Link to='/Service' className="btn btn-primary">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -169,9 +173,10 @@ const Home = () => {
                       eBay and Viber...
                     </p>
                     <br></br>
-                    <a href="/Service" className="btn btn-primary">
+                    {/* <a href="/Service" className="btn btn-primary">
                       Read More
-                    </a>
+                    </a> */}
+                    <Link to='/Service' className="btn btn-primary">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -195,9 +200,10 @@ const Home = () => {
                     </p>
                     <br></br>
                     <br></br>
-                    <a href="/Android" className="btn btn-primary">
+                    {/* <a href="/Android" className="btn btn-primary">
                       Read More
-                    </a>
+                    </a> */}
+                    <Link to='/Android' className="btn btn-primary">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -221,9 +227,10 @@ const Home = () => {
                       requirements, our efforts have proved highly resourceful
                       for different organizational...
                     </p>
-                    <a href="/Outsourcing" className="btn btn-primary">
+                    {/* <a href="/Outsourcing" className="btn btn-primary">
                       Read More
-                    </a>
+                    </a> */}
+                    <Link to="/Outsourcing" className="btn btn-primary">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -247,9 +254,10 @@ const Home = () => {
                       document management...
                     </p>
                     <br></br>
-                    <a href="/Service" className="btn btn-primary">
+                    {/* <a href="/Service" className="btn btn-primary">
                       Read More
-                    </a>
+                    </a> */}
+                    <Link to="/Service" className="btn btn-primary">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -273,9 +281,10 @@ const Home = () => {
                     </p>
                     <br></br>
                     <br></br>
-                    <a href="/Service" className="btn btn-primary">
+                    {/* <a href="/Service" className="btn btn-primary">
                       Read More
-                    </a>
+                    </a> */}
+                    <Link to="/Service" className="btn btn-primary">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -299,9 +308,10 @@ const Home = () => {
                       natural lead-in to additional content. With supporting
                       text below as a natural lead-in to additional content...
                     </p>
-                    <a href="/Service" className="btn btn-primary">
+                    {/* <a href="/Service" className="btn btn-primary">
                       Read More
-                    </a>
+                    </a> */}
+                    <Link to="/Service" className="btn btn-primary">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -324,9 +334,10 @@ const Home = () => {
                       natural lead-in to additional content. With supporting
                       text below as a natural lead-in to additional content...
                     </p>
-                    <a href="/Service" className="btn btn-primary">
+                    {/* <a href="/Service" className="btn btn-primary">
                       Read More
-                    </a>
+                    </a> */}
+                    <Link to="/Service" className="btn btn-primary">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -493,7 +504,9 @@ const Home = () => {
                   <li>PPT Design</li>
                   <li>Corporate Branding</li>
                 </ul>
-      <a href="/Ui">Read More</a>
+      {/* <a href="/Ui">Read More</a> */}
+      <Link to="/Ui">Read More</Link>
+      
     </div>
   </div>
   <div class="box">
@@ -508,7 +521,8 @@ const Home = () => {
         <li>Ecommerce Development</li>
       
       </ul>
-      <a href="/Android">Read More</a>
+      {/* <a href="/Android">Read More</a> */}
+      <Link to="/Android">Read More</Link>
     </div>
   </div>
   <div class="box">
@@ -523,7 +537,8 @@ const Home = () => {
         <li>Data Center Consulting</li>
         <li>Resource Augmentation</li>
       </ul>
-      <a href="/Artificial">Read More</a>
+      {/* <a href="/Artificial">Read More</a> */}
+      <Link to="/Artificial">Read More</Link>
     </div>
   </div>
 </div>
