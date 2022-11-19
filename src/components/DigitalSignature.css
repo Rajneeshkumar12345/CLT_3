@@ -1,0 +1,25 @@
+.DG {
+  background-color: #7436b5;
+}
+
+
+.Digital_Signature {
+  /* background-image: url(../images/Glass_Image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 52rem; */
+  background-color: #7436b5;
+
+}
+.Class-3_Text{
+    font-size: 20px;
+    font-weight: 500;
+}
+.Class_image{
+    border-radius: 20px;
+}
+.Class3_Text{
+    text-align: justify;
+    font-size: 18px;
+    color: aliceblue;
+}

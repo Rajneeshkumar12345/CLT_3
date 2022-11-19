@@ -33,9 +33,10 @@ html,body {
 }
 
 .scroll-bg {
-  background-color: #0f0f0a;
+  background-color: #48b0ca;
   padding: 10px 70px;
-  color: #f5efef;
+  color: #0c0c0c;
+  text-align: justify;
 }
 .section-title{
   margin-top: 7rem;
@@ -47,13 +48,13 @@ html,body {
 /* first section */
 
 .bg-1 {
-  background-image: url(../images/Back1.jpg);
+  background-image: url(../images/R1.jpg);
 }
 
 
 
 .bg-2 {
-  background-image: url(../images/Back2.jpg);
+  background-image: url(../images/R2.jpg);
 }
 
 
@@ -63,19 +64,19 @@ html,body {
 }
 
 .bg-4 {
-  background-image: url(../images/SD.png);
+  background-image: url(../images/R4.webp);
 }
 
 
 
 .bg-5 {
-  background-image: url(../images/SSL.png);
+  background-image: url(../images/R5.jpg);
 }
 
 
 
 .bg-6 {
-  background-image: url(../images/Outsourcing.png);
+  background-image: url(../images/R6.jpg);
 }
 
 

@@ -16,11 +16,39 @@ import business from "../images/business.png";
 import Reaserch from "../images/Reaserch.png";
 
 import ReactReadMoreReadLess from "react-read-more-read-less";
+import { Laptop } from "@mui/icons-material";
+import Hosting_Side_Image from "../images/Hosting_Side_Image.png";
 
 function Service() {
   useEffect(() => {
     document.title = "Service page - CodeLover Technology Pvt Ltd";
   });
+
+  // const loadScript = (src) => {
+  //   return new Promise((resolve) => {
+  //     const script = document.createElement("script");
+  //     script.src = src;
+
+  //     script.onload = () => {
+  //       resolve(true);
+  //     };
+  //     script.onerror = () => {
+  //       resolve(false);
+  //     };
+  //     document.body.appendChild(script);
+  //   });
+  // };
+
+  // const displayRazorpay = async (amount) => {
+  //   const res = await loadScript(
+  //     "https://rzp.io/i/eOPbBOntOO"
+  //   );
+
+  //   if (!res) {
+  //     alert("You are offline.....Failed to load ");
+  //     return;
+  //   }
+  // };
   return (
     <>
       <div className="body-content" style={{ backgroundColor: "#b8d0d1" }}>
@@ -29,15 +57,15 @@ function Service() {
         </div> */}
         <div className="container" style={{ marginTop: "0rem" }}>
           <div className="row">
-            <div className="col-md-12 col-sm-12 col-xs-12 ">
+            <div className="col-md-12 col-sm-12 ">
               <h1
-                className="section-title text-center"
-                style={{ marginTop: "7rem" }}
+                className="Service-title text-center"
+                style={{ marginTop: "5rem" }}
               >
                 CODELOVER <span style={{ color: "#d60909" }}>TECHNOLOGY</span>{" "}
                 SERVICES
               </h1>
-              <p className="service_justify">
+              <p className="service_justify mt-3">
                 <b>CodeLover Technology</b> is a global IT company with a proven
                 track record of excellence in software-consulting, outsourcing
                 and digital solutions.
@@ -61,181 +89,66 @@ function Service() {
           </div>
           <div id="service">
             <div style={{ width: "100%", margin: "0px 0px 50px 0px" }}>
+              <div className="col-md-12 col-sm-12 col-xs-12 text-center">
+                <h2 className="feature_title py-3 ">
+                  CUSTOM SOFTWARE DEVELOPMENT
+                </h2>
+              </div>
               <div className="row">
-                <div className="col-md-3 col-sm-3 col-xs-12">
+                <div
+                  className="col-md-3 col-sm-12"
+                  style={{ backgroundColor: "#c7f5c1", borderRadius: "10px" }}
+                >
+                  <h5 className="text-center mt-3 software_heading2">
+                    SOFTWARE SERVICES
+                  </h5>
                   <ul
-                    className="nav nav-tabs tabs-left"
+                    className="nav nav-tabs tabs-left Software_Content"
                     role="tablist"
-                    style={{ backgroundColor: "#c7f5c1", borderRadius: "10px" }}
-                    class="ms-1"
                   >
-                    SOFTWARE DEVELOPMENT
-                    <li className="ms-3">Consultany Services</li>
-                    <li className="ms-3">Technology Services</li>
-                    <li className="ms-3">Outsourcing Services</li>
-                    <li className="ms-3">IT Support Services</li>
-                    <li className="ms-3">Website and Portals</li>
-                    <li className="ms-3">Hosting</li>
-                    <li className="ms-3">Web Designing</li>
-                    <li className="ms-3">Mobile Application</li>
-                    {/* <li role="presentation" className="active py-3 text-center">
-                      <a
-                        href="#custom_software_development"
-                        aria-controls="home"
-                        role="tab"
-                        data-toggle="tab"
-                        style={{ textDecoration: "none" }}
-                      >
-                        CUSTOM SOFTWARE DEVELOPMENT
-                      </a>
-                    </li>
-                    <li role="presentation">
-                      <a
-                        href="#consultancy_services"
-                        aria-controls="profile"
-                        role="tab"
-                        data-toggle="tab"
-                        style={{ textDecoration: "none" }}
-                        
-                      >
-                        CONSULTANCY SERVICES
-                      </a>
-                    </li>
-                    <li role="presentation">
-                      <a
-                        href="#technology_services"
-                        aria-controls="messages"
-                        role="tab"
-                        data-toggle="tab"
-                        style={{ textDecoration: "none" }}
-                      >
-                        TECHNOLOGY SERVICES
-                      </a>
-                    </li>
-                    <li role="presentation">
-                      <a
-                        href="#outsourcing_services"
-                        aria-controls="settings"
-                        role="tab"
-                        data-toggle="tab"
-                        style={{ textDecoration: "none" }}
-                      >
-                        OUTSOURCING SERVICES
-                      </a>
-                    </li>
-                    <li role="presentation">
-                      <a
-                        href="#it_support_services"
-                        aria-controls="settings"
-                        role="tab"
-                        data-toggle="tab"
-                        style={{ textDecoration: "none" }}
-                      >
-                        IT SUPPORT SERVICES
-                      </a>
-                    </li>
-                    <li role="presentation">
-                      <a
-                        href="#websites_and_portals"
-                        aria-controls="settings"
-                        role="tab"
-                        data-toggle="tab"
-                        style={{ textDecoration: "none" }}
-                      >
-                        WEBSITES AND PORTALS
-                      </a>
-                    </li>
-                    <li role="presentation">
-                      <a
-                        href="#web_hosting"
-                        aria-controls="settings"
-                        role="tab"
-                        data-toggle="tab"
-                        style={{ textDecoration: "none" }}
-                      >
-                        WEB HOSTING
-                      </a>
-                    </li>
-                    <li role="presentation">
-                      <a
-                        href="#web_designing"
-                        aria-controls="settings"
-                        role="tab"
-                        data-toggle="tab"
-                        style={{ textDecoration: "none" }}
-                      >
-                        WEB DESIGNING
-                      </a>
-                    </li>
-                    <li role="presentation">
-                      <a
-                        href="#mobile_application"
-                        aria-controls="settings"
-                        role="tab"
-                        data-toggle="tab"
-                        style={{ textDecoration: "none" }}
-                      >
-                        MOBILE APPLICATION
-                      </a>
-                    </li> */}
+                    <li className="List-Development">Consultany Services</li>
+                    <li className="List-Development">Technology Services</li>
+                    <li className="List-Development">Outsourcing Services</li>
+                    <li className="List-Development">IT Support Services</li>
+                    <li className="List-Development">Website and Portals</li>
+                    <li className="List-Development">Hosting</li>
+                    <li className="List-Development">Web Designing</li>
+                    <li className="List-Development">Mobile Application</li>
                   </ul>
                 </div>
-                <div className="col-md-9 col-sm-9 col-xs-12">
-                  <div className="tab-content">
-                    <div
-                      role="tabpanel"
-                      className="tab-pane active"
-                      id="custom_software_development"
-                    >
-                      <div className="row">
-                        <div className="Service_content" id="customSoftDevl">
-                          <div className="col-md-12 col-sm-12 col-xs-12">
-                            <h2 className="feature_title">
-                              Custom Software Development
-                            </h2>
-                          </div>
-                          <div className="row">
-                            <div className="col-md-6 col-sm-6 col-xs-12">
-                              <img
-                                src={custom}
-                                className="img-responsive"
-                                alt="software-development"
-                                width="400"
-                                height="350"
-                              />
-                            </div>
-                            <div className="col-md-6 col-sm-6 col-xs-12">
-                              <div className="Ser_Cont">
-                                <p>
-                                  CodeLover Technology is a global IT company
-                                  with a proven track record of excellence in
-                                  software-consulting, outsourcing and digital
-                                  solutions. Having worked for more than a
-                                  decade, we have gained unparalleled experience
-                                  and developed comprehensive capabilities &amp;
-                                  expertise across a wide variety of functions
-                                  and industries.
-                                </p>
-                                <p>
-                                  We partner with companies to fulfill their
-                                  ever evolving IT needs and support their
-                                  business with our enabling solutions.
-                                </p>
-                                <p>
-                                  Our team of professional constantly work to
-                                  create personalized, end-to-end solutions to
-                                  serve the dynamic requirements of our clients.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="clearfix"></div>
-                        </div>
-                      </div>
-                    </div>
+                <div className="col-md-4 col-sm-12 mt-2">
+                  <img
+                    src={custom}
+                    className="img-fluid h-100"
+                    alt="software-development"
+                    // width="350"
+                    //  height="350"
+                  />
+                </div>
+                <div className="col-md-5 col-sm-12 col-xs-12 mt-2">
+                  <div className="Ser_Cont">
+                    <p>
+                      CodeLover Technology is a global IT company with a proven
+                      track record of excellence in software-consulting,
+                      outsourcing and digital solutions. Having worked for more
+                      than a decade, we have gained unparalleled experience and
+                      developed comprehensive capabilities &amp; expertise
+                      across a wide variety of functions and industries.
+                    </p>
+                    <p>
+                      We partner with companies to fulfill their ever evolving
+                      IT needs and support their business with our enabling
+                      solutions.
+                    </p>
+                    <p>
+                      Our team of professional constantly work to create
+                      personalized, end-to-end solutions to serve the dynamic
+                      requirements of our clients.
+                    </p>
                   </div>
                 </div>
+
+                <div className="clearfix"></div>
               </div>
             </div>
           </div>
@@ -246,118 +159,334 @@ function Service() {
             <div className="col-md-12 col-sm-12 col-xs-12">
               <h1 className="section-title text-center text-uppercase">
                 {" "}
-                <span style={{ color: "#e30707", font: "bold" }}>
-                  Hosting
-                </span>{" "}
-                Name
+                <span style={{ color: "#e30707", font: "bold" }}>WEB</span>{" "}
+                HOSTING
               </h1>
             </div>
           </div>
+
+          <section class="research-wrapp gap-top">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 research-cnt-block-wrapp">
+                  <div class="research-cnt-block" id="research">
+                    <p
+                      style={{
+                        textAlign: "left",
+                        fontSize: "25px",
+                        fontWeight: "500",
+                      }}
+                    >
+                      <strong>What is Web Hosting ?</strong>
+                    </p>
+                    <p class="mb-0 Web_Hosting_Content">
+                      <span
+                        style={{
+                          color: "#1208a1",
+                          fontSize: "25px",
+                          fontWeight: "500",
+                        }}
+                      >
+                        Web hosting
+                      </span>{" "}
+                      is an online service that makes your website’s content
+                      accessible on the internet. When you purchase a hosting
+                      plan, you are renting space on a physical server to store
+                      all the website’s files and data.
+                    </p>
+                    <br></br>
+                    <p class="mb-0 Web_Hosting_Content">
+                      Web hosts provide the hosting technology and resources
+                      required for the effective and secure operation of your
+                      website. They are responsible for keeping the server up
+                      and running, implementing security measures, and ensuring
+                      that data such as texts, photos, and other files are
+                      transferred successfully to the visitors’ browsers.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-3 research-title-block-wrapp text-center">
+                  <div class="res-title-block">
+                    <div class="research-title blue-text" id="res_link_0">
+                      -Types Of Hosting-
+                    </div>
+                    <div class="research-sub-title-block mt-3">
+                      <div class=" reserach-sub-title shared_hosting">
+                        Shared hosting.{" "}
+                        <span className="tooltiptext">
+                          Silicon House, <br></br>Go Daddy, Hostinger
+                        </span>
+                      </div>
+
+                      <div class="reserach-sub-title " id="res_link_2">
+                        VPS hosting.
+                      </div>
+
+                      <div
+                        class="reserach-sub-title  Dedicated_hosting"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        id="res_link_3"
+                      >
+                        Dedicated hosting.{" "}
+                        <span className="tooltip_Dedicated">
+                          AWS, <br></br> Microsoft, <br></br> Go Daddy,{" "}
+                          <br></br> Hostinger
+                        </span>
+                      </div>
+
+                      <div class="reserach-sub-title " id="res_link_4">
+                        Managed hosting.
+                      </div>
+
+                      <div class="reserach-sub-title " id="res_link_5">
+                        Cloud hosting.
+                      </div>
+                      <div class="reserach-sub-title " id="res_link_6">
+                        Colocation.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="resaerch-image-block-wrapp col-md-5">
+                  <div class="research-image-block" id="research_image" />
+                  <img src={Hosting_Side_Image} alt="" className="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </section>
           <div className="row">
             {/* First container of Technology */}
             <div className="hosting"></div>
-            <div className="col-md-12 col-sm-12 col-xs-12">
-              <h5 className="text-center mt-5">
-                {" "}
-                <span style={{ color: "#077ce3" }}>WEB HOSTING</span>
-              </h5>
-            </div>
-            <div className="col-md-6 col-sm-12 mb-3 mb-lg-0 mt-4">
-              <div className="hover hover-4 text-white rounded">
+            <div className="col-md-12 col-sm-12 mb-3  mt-5 Hosting_image text-center">
+              <div className="hover hover-4 text-white rounded ">
                 <img src={hosting} alt="" className="fluid" />
               </div>
             </div>
 
-            <div className="col-md-6 col-sm-12  mb-3 mb-lg-0 text-white Technology_content Last_content">
+            <div className="col-md-12 col-sm-12  mb-3 mb-lg-0 text-white Technology_content Last_content">
               <div className="Ser_Cont" id="WebHosting">
-                <p className="text-dark mt-3">
+                <p
+                  className="text-dark mt-3"
+                  style={{ fontSize: "18px", fontWeight: "400" }}
+                >
                   We create corporate web portals and intranets to help
                   established enterprises benefit from collaboration and
                   document management.
                 </p>
-                <h2 style={{ color: "#d40688" }}>Hosting Plan</h2>
-                <div className="row p-2">
-                  <table className="table table-bordered table-condensed table-hover">
-                    <thead>
-                      <tr>
-                        <td id="Starter" style={{ background: "#06d46a" }}>
-                          <h2>Starter</h2>
-                        </td>
-                        <td id="Advanced" style={{ background: "#04c7c0" }}>
-                          {" "}
-                          <h2>Advanced</h2>
-                        </td>
-                        <td id="Business" style={{ background: "#f28ab2" }}>
-                          <h2>Business</h2>
-                        </td>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          {" "}
-                          <h4>
-                            <i className="fa fa-inr"></i> 600/Year
-                          </h4>
-                        </td>
-                        <td>
-                          <h4>
-                            <i className="fa fa-inr"></i> 2000/Year
-                          </h4>
-                        </td>
-                        <td>
-                          {" "}
-                          <h4>
-                            <i className="fa fa-inr"></i> 3500/Year
-                          </h4>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>1 GB Space</p>
-                        </td>
-                        <td>
-                          <p>10 GB Space</p>
-                        </td>
-                        <td>
-                          <p>Unlimited Space</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>1 Emails</p>
-                        </td>
-                        <td>
-                          <p>10 Emails</p>
-                        </td>
-                        <td>
-                          <p>Unlimited Emails</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <button type="button" className="btn btn-success">
-                            Buy Plan
-                          </button>
-                        </td>
-                        <td>
-                          <button type="button" className="btn btn-success">
-                            Buy Plan
-                          </button>
-                        </td>
-                        <td>
-                          <button type="button" className="btn btn-success">
-                            Buy Plan
-                          </button>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <div className="col-md-12 col-sm-12 col-xs-12">
+                  <h1 className="section-title text-center text-uppercase">
+                    {" "}
+                    <span style={{ color: "#e30707", font: "bold" }}>
+                      Hosting
+                    </span>{" "}
+                    Plans
+                  </h1>
+                </div>
+                <div className="container">
+                  <div className="row">
+                    <div className="col-sm-12">
+                      <table className="table table-bordered table-responsive">
+                        <thead>
+                          <tr>
+                            <td id="Starter" style={{ background: "#06d46a" }}>
+                              <h2>Starter</h2>
+                            </td>
+                            <td id="Advanced" style={{ background: "#04c7c0" }}>
+                              {" "}
+                              <h2>Advanced</h2>
+                            </td>
+                            <td id="Business" style={{ background: "#f28ab2" }}>
+                              <h2>Business</h2>
+                            </td>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr></tr>
+                          <tr>
+                            <td>
+                              <p>1 Domain</p>
+                            </td>
+                            <td>
+                              <p>10 Domain</p>
+                            </td>
+                            <td>
+                              <p>Unlimited Domain</p>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <p>5 SubDomain</p>
+                            </td>
+                            <td>
+                              <p>50 SubDomain</p>
+                            </td>
+                            <td>
+                              <p>Unlimited SubDomain</p>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <p>SSL Certificate ( Zero SSL )</p>
+                            </td>
+                            <td>
+                              <p> No SSL </p>
+                            </td>
+                            <td>
+                              <p> NO SSL</p>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <p>1 GB Space</p>
+                            </td>
+                            <td>
+                              <p> Unlimited Space</p>
+                            </td>
+                            <td>
+                              <p>Unlimited Space</p>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <p> 3 - 5 Official Mail Id </p>
+                            </td>
+                            <td>
+                              <p>Unlimited Mail Id</p>
+                            </td>
+                            <td>
+                              <p>Unlimited Mail Id</p>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <p> 1 SQL Database (250 Mb) </p>
+                            </td>
+                            <td>
+                              <p>10 SQL Database </p>
+                            </td>
+                            <td>
+                              <p>As Per Domain</p>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <p> 3 MYSQL Database </p>
+                            </td>
+                            <td>
+                              <p>Unlimited</p>
+                            </td>
+                            <td>
+                              <p>Unlimited</p>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <p> cPanel</p>
+                            </td>
+                            <td>
+                              <p>Unlimited</p>
+                            </td>
+                            <td>
+                              <p>cPanel with Admin and Subuser too</p>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <p> Bandwidth - 1TB </p>
+                            </td>
+                            <td>
+                              <p>Unlimited</p>
+                            </td>
+                            <td>
+                              <p>Unlimited</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              {" "}
+                              <h4>
+                                <i className="fa fa-inr"></i> 600 (Valid:- 1
+                                Year)
+                              </h4>
+                            </td>
+                            <td>
+                              <h4>
+                                <i className="fa fa-inr"></i> 2000 (Valid:- 1
+                                Year)
+                              </h4>
+                            </td>
+                            <td>
+                              {" "}
+                              <h4>
+                                <i className="fa fa-inr"></i> 3500 (Valid:- 1
+                                Year)
+                              </h4>
+                            </td>
+                          </tr>
+                          <tr></tr>
+                          <tr>
+                            <td>
+                              <a
+                                href="https://razorpay.com/payment-link/plink_KhTZHYg7g8D8fF"
+                                target="_blank"
+                              >
+                                <button
+                                  type="button"
+                                  className="btn btn-success"
+
+                                  // onClick={() => displayRazorpay()}
+                                >
+                                  Buy Plan
+                                </button>
+                              </a>
+                            </td>
+                            <td>
+                              <a
+                                href="https://rzp.io/i/n7PSdtLmB"
+                                target="_blank"
+                              >
+                                <button
+                                  type="button"
+                                  className="btn btn-success"
+
+                                  // onClick={() => displayRazorpay()}
+                                >
+                                  Buy Plan
+                                </button>
+                              </a>
+                            </td>
+                            <td>
+                              <a
+                                href="https://rzp.io/i/Y2IL9QX"
+                                target="_blank"
+                              >
+                                <button
+                                  type="button"
+                                  className="btn btn-success"
+
+                                  // onClick={() => displayRazorpay()}
+                                >
+                                  Buy Plan
+                                </button>
+                              </a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
                 </div>
 
-                <p className="AdmiCpan text-center py-2 bg-dark">
-                  With admin cpanel
-                </p>
+                <p className="AdmiCpan text-center py-2 bg-dark">With cPanel</p>
               </div>
             </div>
             <div className="clearfix"></div>
@@ -426,7 +555,7 @@ function Service() {
                         <button className="btn btn-dark">Read More ▼</button>
                       }
                       readLessText={
-                        <button className="btn btn-dark">Read More ▲</button>
+                        <button className="btn btn-dark">Read Less ▲</button>
                       }
                     >
                       Modern businesses attach great importance to the
@@ -513,7 +642,7 @@ function Service() {
                         <button className="btn btn-dark">Read More ▼</button>
                       }
                       readLessText={
-                        <button className="btn btn-dark">Read More ▲</button>
+                        <button className="btn btn-dark">Read Less ▲</button>
                       }
                     >
                       With more than nine years of experience in meeting human
@@ -737,11 +866,21 @@ function Service() {
                     className="col-md-6 col-sm-12 mb-3 mb-lg-0 text-white Technology_content Last_content"
                     style={{ marginTop: "40px" }}
                   >
-                    A Digital Signature Certificate is a secure digital key that
-                    is issued by the certifying authorities for the purpose of
-                    validating and certifying the identity of the person holding
-                    this certificate. Digital Signatures make use of the public
-                    key encryptions to create the signatures.
+                    <p>A Digital Signature Certificate is a secure digital
+                    key that is issued by the certifying authorities for the
+                    purpose of validating and certifying the identity of the
+                    person holding this certificate. Digital Signatures make use
+                    of the public key encryptions to create the signatures.</p>
+                    <p>
+                      Digital signatures can provide evidence of origin,
+                      identity and status of electronic documents, transactions
+                      or digital messages. Signers can also use them to
+                      acknowledge informed consent.
+                    </p>
+                    <a href="/DigitalSignature">
+                    <button className="btn btn-dark">Apply Now</button>
+                    </a>
+                   
                   </div>
                 </div>
 
@@ -850,21 +989,13 @@ function Service() {
                 <p></p>
               </div>
               <div class="col-md-6 ser-mid-banner-bottom-image-block">
-                <img
-                  src={Reaserch}
-                  className="img-fluid"
-                  alt=""
-                />
+                <img src={Reaserch} className="img-fluid" alt="" />
               </div>
             </div>
 
             <div class="row align-items-center service-middle-banner-bottom-block">
-            <div class="col-md-6 ser-mid-banner-bottom-image-block">
-                <img
-                  src={business}
-                  className="img-fluid"
-                  alt=""
-                />
+              <div class="col-md-6 ser-mid-banner-bottom-image-block">
+                <img src={business} className="img-fluid" alt="" />
               </div>
               <div class="col-md-6 ser-mid-banner-bottom-content-block">
                 <div class="ser-ban-bot-title text-high">Business Analysis</div>
@@ -880,7 +1011,6 @@ function Service() {
                 </p>
                 <p></p>
               </div>
-             
             </div>
           </div>
         </section>

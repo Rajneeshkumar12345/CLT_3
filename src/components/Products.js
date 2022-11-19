@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Product1 from "../images/Product1.png";
 import Product2 from "../images/Product2.png";
@@ -11,15 +11,15 @@ import Product8 from "../images/Product8.png";
 
 const Products = () => {
   useEffect(() => {
-    document.title = "Product page - CodeLover Technology Pvt Ltd"
-})
+    document.title = "Product page - CodeLover Technology Pvt Ltd";
+  });
   return (
     <>
       <div className="product" style={{ marginTop: "0rem" }}>
-      {/* <div className="image py-2" style={{backgroundColor:"#06769e"}}>
+        {/* <div className="image py-2" style={{backgroundColor:"#06769e"}}>
           <img src="CodeLoverTech_Logo.png" width="250" height="80" className="mt-2" style={{marginLeft:"70px"}}></img>
         </div> */}
-     
+
         <h2
           className="text-center py-4"
           style={{
@@ -32,7 +32,7 @@ const Products = () => {
         >
           OUR <span style={{ color: "#091ad6" }}>CMS</span> PRODUCT
         </h2>
-        
+
         <div className="" style={{ marginTop: "-1rem" }}>
           <div className="row">
             <div className="col">
@@ -334,13 +334,17 @@ const Products = () => {
                         alt="sans"
                       />
                     </div>
-
                   </div>
                 </div>
               </div>
             </div>
             <div className="btn py-3">
-            <Link to="/Contact"> <button type="button" className="btn btn-dark btn-lg">Request For Demo</button></Link>
+              <Link to="/Contact">
+                {" "}
+                <button type="button" className="btn btn-dark btn-lg">
+                  Request For Demo
+                </button>
+              </Link>
             </div>
           </div>
         </div>

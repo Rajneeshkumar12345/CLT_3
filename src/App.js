@@ -2,7 +2,7 @@
 import './App.css';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import Navbar from './components/Navbar';
+import Navbar from './components/Sidebar';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import ScrollToTop from './components/ScrollToTop';
 import Contact from './components/Contact';
@@ -20,6 +20,7 @@ import Android from './components/Android';
 import Ui from './components/Ui';
 import Outsourcing from './components/Outsourcing';
 import Artificial from './components/Artificial';
+import DigitalSignature from './components/DigitalSignature';
 // import useDocumentTitle from './components/useDocumentTitle'
 
 
@@ -46,10 +47,6 @@ function App() {
      <ScrollToTop>
      <Navbar/>
      {/* <Home/> */}
-
-     {/* Typewriter start here */}
-
-     {/* Typewriter start end here */}
   
      
      {/* <Ckeck/> */}
@@ -67,6 +64,7 @@ function App() {
           <Route exact path="/Ui" element={<Ui/>}></Route>
           <Route exact path="/Outsourcing" element={<Outsourcing/>}></Route>
           <Route exact path="/Artificial" element={<Artificial/>}></Route>
+          <Route exact path="/DigitalSignature" element={<DigitalSignature/>}></Route>
           <Route exact path="*" element={<Navigate to="/"/>}></Route>
         </Routes>
         <Footer/>

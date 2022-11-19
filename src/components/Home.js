@@ -15,6 +15,13 @@ import Typewriter from "typewriter-effect";
 
 import { Link } from "react-router-dom";
 
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+
+import Web3 from "../images/Web3.jpg";
+
 const Home = () => {
   useEffect(() => {
     document.title = "Home page - CodeLover Technology Pvt Ltd";
@@ -84,10 +91,142 @@ const Home = () => {
                 .deleteAll()
                 .typeString("CodeLover Technology")
                 .start(true);
-             
             }}
           />
         </div>
+        {/***************** * ENQUIRE BUTTON START FROM HERE ***********************/}
+        <button
+          data-toggle="modal"
+          data-target="#myModal"
+          class="trigger_popup border-0"
+        >
+          <span>Enquire Now</span>
+        </button>
+
+        <div className="modal fade" id="myModal" role="dialog">
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div id="container" style={{ marginTop: "3rem" }}>
+                <button
+                  type="button"
+                  className="close text-right me-3"
+                  data-dismiss="modal"
+                >
+                  &times;
+                </button>
+                <header>Enquire Now </header>
+
+                <form method="post">
+                  <fieldset>
+                    <br />
+                    <input
+                      type="text"
+                      name="Entername"
+                      id="username"
+                      className="Popup_Common"
+                      placeholder="EnterName"
+                      required
+                      autoFocus
+                    />
+                    <br />
+                    <br />
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      className="Popup_Common"
+                      placeholder="E-mail"
+                      required
+                    />
+                    <input
+                      type="phone"
+                      name="phone"
+                      id="phone"
+                      className="Popup_Common phone_class"
+                      placeholder="Phone"
+                      required
+                    />
+                    <br />
+                    <br />
+                    <textarea
+                      type="text"
+                      name="message"
+                      id="message"
+                      placeholder="EnterMessage"
+                      className="Popup_Common"
+                    ></textarea>
+
+                    <br />
+                    <label for="submit"></label>
+                    <input
+                      type="submit"
+                      name="submit"
+                      id="submit"
+                      value="REGISTER"
+                      className="Popup_submit"
+                    />
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/************************** * OUR SOCIAL MEDIA ICONS **********************************/}
+
+        <ul id="social-sidebar">
+          <li>
+            <a class="evernote">
+              <WhatsAppIcon />
+              <span>Whatsapp</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/CodeLoverTech/"
+              target="_blank"
+              class="entypo-facebook"
+            >
+              <span>Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/codelovertechnology/?hl=en"
+              target="_blank"
+              class="dribbble"
+            >
+              <InstagramIcon />
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/codelover-technology-810724151/"
+              target="_blank"
+              class="dropbox"
+            >
+              <LinkedInIcon />
+              <span>Linkdeln</span>
+            </a>
+          </li>
+          <li>
+            <a class="github">
+              <YouTubeIcon />
+              <span>Youtube</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/infoRajInfotech"
+              target="_blank"
+              class="entypo-twitter"
+            >
+              <span>Twitter</span>
+            </a>
+          </li>
+        </ul>
+
         {/* #31abd4    #425b70  #42617a  #3d5f7a*/}
         <div className="home" style={{ backgroundColor: "#3e5e78" }}>
           {/* 10 Card Container start from here */}
@@ -117,7 +256,9 @@ const Home = () => {
                     {/* <a href="/Explore" className="btn btn-primary">
                       Read More
                     </a> */}
-                    <Link to='/Explore' className="btn btn-primary">Read More</Link>
+                    <Link to="/Explore" className="btn btn-primary">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -146,7 +287,9 @@ const Home = () => {
                     {/* <a href="/Service" className="btn btn-primary">
                       Read More
                     </a> */}
-                    <Link to='/Service' className="btn btn-primary">Read More</Link>
+                    <Link to="/Service" className="btn btn-primary">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -176,7 +319,9 @@ const Home = () => {
                     {/* <a href="/Service" className="btn btn-primary">
                       Read More
                     </a> */}
-                    <Link to='/Service' className="btn btn-primary">Read More</Link>
+                    <Link to="/Service" className="btn btn-primary">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -203,7 +348,9 @@ const Home = () => {
                     {/* <a href="/Android" className="btn btn-primary">
                       Read More
                     </a> */}
-                    <Link to='/Android' className="btn btn-primary">Read More</Link>
+                    <Link to="/Android" className="btn btn-primary">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -230,7 +377,9 @@ const Home = () => {
                     {/* <a href="/Outsourcing" className="btn btn-primary">
                       Read More
                     </a> */}
-                    <Link to="/Outsourcing" className="btn btn-primary">Read More</Link>
+                    <Link to="/Outsourcing" className="btn btn-primary">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -257,7 +406,9 @@ const Home = () => {
                     {/* <a href="/Service" className="btn btn-primary">
                       Read More
                     </a> */}
-                    <Link to="/Service" className="btn btn-primary">Read More</Link>
+                    <Link to="/Service" className="btn btn-primary">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -284,7 +435,9 @@ const Home = () => {
                     {/* <a href="/Service" className="btn btn-primary">
                       Read More
                     </a> */}
-                    <Link to="/Service" className="btn btn-primary">Read More</Link>
+                    <Link to="/Service" className="btn btn-primary">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -311,7 +464,9 @@ const Home = () => {
                     {/* <a href="/Service" className="btn btn-primary">
                       Read More
                     </a> */}
-                    <Link to="/Service" className="btn btn-primary">Read More</Link>
+                    <Link to="/Service" className="btn btn-primary">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -337,7 +492,9 @@ const Home = () => {
                     {/* <a href="/Service" className="btn btn-primary">
                       Read More
                     </a> */}
-                    <Link to="/Service" className="btn btn-primary">Read More</Link>
+                    <Link to="/Service" className="btn btn-primary">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -370,7 +527,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* our Quality  */}
+        {/*********************** * OUR Quality  Section start from here ************************/}
 
         <section className="our-approch-wrapp gap-top">
           <div className="container">
@@ -394,7 +551,7 @@ const Home = () => {
               <div className="col-md-6 col-sm-12 our-approch-content-wrapp">
                 <div className="our-app-content-title">
                   <span>
-                    <h3>We do</h3>
+                    <h3>We do:-</h3>
                   </span>{" "}
                   <span
                     className="blue-text"
@@ -403,7 +560,7 @@ const Home = () => {
                     <h1>Success Probability Research</h1>
                   </span>
                   <span>
-                    <h3>before accepting your project</h3>
+                    <h3>Before accepting your project.</h3>
                   </span>
                 </div>
                 <p className="succes-text">
@@ -422,136 +579,121 @@ const Home = () => {
           </div>
         </section>
 
-        {/* /* OUR EXPERTISE SECTION START FROM HERE */}
+   {/* ************************* OUR EXPERTISE START HERE ************************* */}
 
-    
+   <h2 className="text-center text-white py-3 Expertise">Our Expertise</h2>
+        <div class="contempt" style={{ marginTop: "-1rem" }}>
+          <div class="box">
+            <span></span>
+            <div class="content">
+              <h2>Design</h2>
+              <ul>
+                <li>Web Design</li>
+                <li>App Design</li>
+                <li>UI/UX Design</li>
+                <li>Logo Design</li>
+                <li>PPT Design</li>
+                <li>Corporate Branding</li>
+              </ul>
+              {/* <a href="/Ui">Read More</a> */}
+              <Link to="/Ui">Read More</Link>
+            </div>
+          </div>
+          <div class="box">
+            <span></span>
+            <div class="content">
+              <h2>Development</h2>
+              <ul>
+                <li>Website Development</li>
+                <li>Mobile App Development</li>
+                <li>IOS Mobile App Development</li>
+                <li>Testing and Quality Assurance</li>
+                <li>Ecommerce Development</li>
+              </ul>
+              {/* <a href="/Android">Read More</a> */}
+              <Link to="/Android">Read More</Link>
+            </div>
+          </div>
+          <div class="box">
+            <span></span>
+            <div class="content">
+              <h2>IT and AI</h2>
+              <ul>
+                <li>Artificial Intelligence</li>
+                <li>Cloud Computing</li>
+                <li>Data Warehouse</li>
+                <li>Business Intelligence</li>
+                <li>Data Center Consulting</li>
+                <li>Resource Augmentation</li>
+              </ul>
+              {/* <a href="/Artificial">Read More</a> */}
+              <Link to="/Artificial">Read More</Link>
+            </div>
+          </div>
+        </div>
 
-        {/* <section
-          className="expertise-wrapp"
-          style={{ backgroundColor: "#cafcfc" }}
-        >
-          <h2 className="text-center">Our Expertise</h2>
-          <div className="section full-height over-hide px-4 px-sm-0">
-            <div className="container">
-              <div className="row full-height justify-content-center">
-                <div className="col-lg-10 col-xl-8 align-self-center padding-tb">
-                  <div className="section mx-auto text-center slider-height-padding">
-                    <input
-                      className="checkbox frst"
-                      type="radio"
-                      id="slide-1"
-                      name="slider"
-                      checked
-                    />
-                    <label htmlFor="slide-1"></label>
-                    <input
-                      className="checkbox scnd"
-                      type="radio"
-                      name="slider"
-                      id="slider-2"
-                    />
-                    <label htmlFor="slider-2"></label>
-                    <input
-                      className="checkbox thrd"
-                      type="radio"
-                      name="slider"
-                      id="slider-3"
-                    />
-                    <label htmlFor="slider-3"></label>
-                    <input
-                      className="checkbox foth"
-                      type="radio"
-                      name="slider"
-                      id="slider-4"
-                    />
-                    <label htmlFor="slider-4"></label>
-                    <ul className="Expertise-ul">
-                      <li className="Expertise-li">
-                        <span>CodeLover Technology</span>
-                      </li>
-                      <li className="Expertise-li">
-                        <span>CodeLover Technology</span>
-                      </li>
-                      <li className="Expertise-li">
-                        <span>CodeLover Technology</span>
-                      </li>
-                      <li className="Expertise-li">
-                        <span>CodeLover Technology</span>
-                      </li>
-                    </ul>
-                  </div>
+
+        {/*********************** *WEB 3 CONTENT START FROM HERE *************************/}
+
+        <section className="our-approch-wrapp gap-top">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <div className="our-approch-title mt-5">WEB 3.0</div>
+                <div className="our-approch-sub-title">
+                  <h5>
+                    Web 3.0 or Web3 is the third generation of the World Wide
+                    Web.
+                  </h5>
                 </div>
               </div>
             </div>
+            <div className="row our-approch-image-content-wrapp align-items-center">
+              <div className="col-md-6 col-sm-12 our-approch-content-wrapp">
+                <div className="our-app-content-title">
+                  <span
+                    className="blue-text"
+                    style={{ color: "rgba(247, 7, 131, 0.8)" }}
+                  >
+                    <h1>About Web 3.0</h1>
+                  </span>
+                  {/* <span>
+                    <h3>before accepting your project</h3>
+                  </span> */}
+                </div>
+                <p className="succes-text">
+                  Web 3.0 has the potential to be just as disruptive and to
+                  usher in a significant paradigm shift as Web 2.0 did. The
+                  fundamental ideas of decentralization, openness and increased
+                  consumer usefulness form the foundation of Web 3.0. Web 3.0,
+                  often known as Web 3, is the next step in the development of
+                  the internet.
+                </p>
+                <p className="succes-text">
+                  Imagine a new kind of Internet that accurately translates what
+                  you type and understands what you say, whether through text,
+                  voice, or other media, and where all of the content you
+                  consume is more personalized than ever before. In the
+                  evolution of the Internet, you are about to enter a new era.
+                  It's been termed Web 3.0.
+                </p>
+              </div>
+              <div className="col-md-6 col-sm-12 our-approch-image-wrapp">
+                <img src={Web3} className="img-fluid" alt="" />
+              </div>
+            </div>
           </div>
-        </section> */}
+        </section>
 
+     
 
-    {/* ************************ OUR EXPERTISE START HERE ************************* */}
-
-<h2 className="text-center text-white py-3 Expertise">Our Expertise</h2>
-<div class="contempt" style={{marginTop:"-1rem"}}>
-  
-  <div class="box">
-    <span></span>
-    <div class="content">
-      <h2>Design</h2>
-                <ul>
-                  <li>Web Design</li>
-                  <li>App Design</li>
-                  <li>UI/UX Design</li>
-                  <li>Logo Design</li>
-                  <li>PPT Design</li>
-                  <li>Corporate Branding</li>
-                </ul>
-      {/* <a href="/Ui">Read More</a> */}
-      <Link to="/Ui">Read More</Link>
-      
-    </div>
-  </div>
-  <div class="box">
-    <span></span>
-    <div class="content">
-      <h2>Development</h2>
-      <ul>
-        <li>Website Development</li>
-        <li>Mobile App Development</li>
-        <li>IOS Mobile App Development</li>
-        <li>Testing and Quality Assurance</li>
-        <li>Ecommerce Development</li>
-      
-      </ul>
-      {/* <a href="/Android">Read More</a> */}
-      <Link to="/Android">Read More</Link>
-    </div>
-  </div>
-  <div class="box">
-    <span></span>
-    <div class="content">
-      <h2>IT and AI</h2>
-      <ul>
-        <li>Artificial Intelligence</li>
-        <li>Cloud Computing</li>
-        <li>Data Warehouse</li>
-        <li>Business Intelligence</li>
-        <li>Data Center Consulting</li>
-        <li>Resource Augmentation</li>
-      </ul>
-      {/* <a href="/Artificial">Read More</a> */}
-      <Link to="/Artificial">Read More</Link>
-    </div>
-  </div>
-</div>
-
-
-        {/* ************************************* */}
-        {/* our Approach start here */}
+        {/************************* our Approach start here *************************/}
 
         <section className="banner-wrapp gap-top">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-6 text-center banner-title-block">
-                <div className="banner-title">Our Approach</div>
+                <div className="banner-title" style={{color:"#039118"}}>Our Approach</div>
               </div>
               <div className="col-md-6 banner-cnt-block approach-text">
                 <p>
@@ -564,7 +706,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* our Testimonial start here  */}
+        {/* **************************our Testimonial start here  *************************/}
 
         <section className="client pt-3 pb-5">
           <div className="container">
@@ -575,7 +717,9 @@ const Home = () => {
                   className="bg-white mb-4 mt-0 d-inline-block mx-auto"
                   style={{ width: "250px", height: "7px" }}
                 />
-                <p className="p-text text-white">What they have to say about us</p>
+                <p className="p-text text-white">
+                  What they have to say about us
+                </p>
               </div>
             </div>
             <div className="row align-items-md-center text-white">

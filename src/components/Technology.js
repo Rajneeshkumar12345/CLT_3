@@ -247,7 +247,7 @@ const Technology = () => {
               >
                 <ReactReadMoreReadLess
                   charLimit={800}
-                  readMoreText= "Read more ▼"
+                  readMoreText= "Read More ▼"
                   readLessText= "Read Less ▲"
                 >
                   In today’s world of collaboration and integrated environment,
