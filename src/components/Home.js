@@ -95,7 +95,7 @@ const Home = () => {
           />
         </div>
         {/***************** * ENQUIRE BUTTON START FROM HERE ***********************/}
-        <button
+       <button
           data-toggle="modal"
           data-target="#myModal"
           class="trigger_popup border-0"
@@ -467,6 +467,7 @@ const Home = () => {
                     <Link to="/Service" className="btn btn-primary">
                       Read More
                     </Link>
+                    <Link to="/DigitalSignature" className="btn btn-dark ms-2">Apply Now</Link>
                   </div>
                 </div>
               </div>

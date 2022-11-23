@@ -74,10 +74,10 @@ header {
   color: #d3d3d3;
 }
 
-fieldset {
+/* fieldset {
   border: 0;
   text-align: center;
-}
+} */
 
 .Popup_submit {
   background: rgb(60, 58, 160);

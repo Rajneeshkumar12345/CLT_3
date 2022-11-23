@@ -21,6 +21,7 @@ import Ui from './components/Ui';
 import Outsourcing from './components/Outsourcing';
 import Artificial from './components/Artificial';
 import DigitalSignature from './components/DigitalSignature';
+import CareerPage from './components/CareerPage';
 // import useDocumentTitle from './components/useDocumentTitle'
 
 
@@ -65,6 +66,7 @@ function App() {
           <Route exact path="/Outsourcing" element={<Outsourcing/>}></Route>
           <Route exact path="/Artificial" element={<Artificial/>}></Route>
           <Route exact path="/DigitalSignature" element={<DigitalSignature/>}></Route>
+          <Route exact path="/CareerPage" element={<CareerPage/>}></Route>
           <Route exact path="*" element={<Navigate to="/"/>}></Route>
         </Routes>
         <Footer/>

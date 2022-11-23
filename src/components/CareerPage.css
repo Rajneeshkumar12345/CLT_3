@@ -1,0 +1,299 @@
+.CareerPage{
+    background-color: #f5ebee;
+   
+}
+.Career{
+    margin-top: 3rem;
+}
+.Heading_Career{
+    margin-top: 7rem;
+}
+.Work_heading{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(247, 7, 131, 0.8);
+}
+
+
+.Career_content{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+   
+}
+/* CSS Reset */
+ main{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    color: #232020;
+}
+.h2_Career{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    color: #232020;  
+}
+
+fieldset, legend, select, option, textarea, button {
+    font-family: 'Raleway', sans-serif;
+}
+
+.Label_Common{
+    font-family: 'Raleway', sans-serif;  
+}
+.Input_Career{
+    font-family: 'Raleway', sans-serif;  
+}
+.Input_email{
+    font-family: 'Raleway', sans-serif;  
+}
+.Input_Age{
+    font-family: 'Raleway', sans-serif;    
+}
+.h2_Career {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+#description {
+    padding-left: 4px;
+}
+
+legend {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.Label_Common {
+    font-weight: 600;
+    display: block;
+    line-height: 2.1em;
+}
+
+fieldset {
+    border: 0;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 0.8fr minmax(50vw, 2.2fr) 1.5fr 0.3fr;
+    grid-template-rows: minmax(50px, 80px) auto;
+    grid-template-areas: 
+        'empty empty empty empty'
+        'still-empty main-content-col title-col right-empty';
+    gap: 1.6em;
+    justify-items: stretch;
+    align-items: stretch;
+    /* margin-bottom: 5px; */
+}
+
+#header {
+    grid-area: title-col;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#survey-form {
+    border-radius: 5px;
+    background-color: #3d939e;
+    color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 0px 15px 0px rgba(0, 0, 0, 0.8);
+    grid-area: main-content-col;    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        'row-heading row-heading'
+        'row-2-left row-2-right'
+        'row-3-left row-3-right'
+        'row-4-left row-4-right'
+        'row-textarea row-textarea';
+        /* 'row-button row-button'; */
+    grid-gap: 1em;
+    justify-items: space-around;
+    align-content: start;
+}
+  select, textarea {
+    border-radius: 5px;        
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color: #232020;
+    border: 0;
+    padding: 1.7%;
+    width: 96.2%;
+    box-shadow: inset 0 0 7px 0 rgba(17, 17, 17, 0.6);
+}
+.Input_Career{
+    border-radius: 5px;        
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color: #232020;
+    border: 0;
+    padding: 1.7%;
+    width: 96.2%;
+    box-shadow: inset 0 0 7px 0 rgba(17, 17, 17, 0.6);  
+}
+.Input_email{
+    border-radius: 5px;        
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color: #232020;
+    border: 0;
+    padding: 1.7%;
+    width: 96.2%;
+    box-shadow: inset 0 0 7px 0 rgba(17, 17, 17, 0.6);   
+}
+.Input_Age{
+    border-radius: 5px;        
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color: #232020;
+    border: 0;
+    padding: 1.7%;
+    width: 96.2%;
+    box-shadow: inset 0 0 7px 0 rgba(17, 17, 17, 0.6);     
+}
+input[type='radio'], input[type='checkbox'] {
+    min-width: 2em;
+    min-height: 2em;
+    vertical-align: top;
+}
+
+#textarea-comment-field-label {
+    grid-area: row-textarea;
+    resize: none;
+}
+
+select {
+    width: 96.6% !important;
+    align-self: end;
+    height: 43px;
+}
+
+/* button { 
+    grid-area: row-button;   
+    background-color: #232020;
+    color: #f4f4f4;
+    font-size: 16px;
+    border: 0;
+    padding: 0.6em 0;
+    box-shadow: 0 5px 5px -2px rgba(17, 17, 17, 0.7);
+} */
+
+#form-header {
+    grid-area: row-heading;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+@media (max-width: 1450px) {    
+
+    #main {
+        grid-template-columns: 0.8fr minmax(60vw, 2.2fr) 1.5fr 0.3fr;
+    }
+
+}
+
+@media (min-width: 991px) and (max-width: 1181px) {    
+
+    #main {
+        grid-template-columns: 0.5fr minmax(71vw, 2.5fr) 0.9fr 0.2fr;
+    }
+
+
+
+    .h2_Career {
+        font-size: 30px;
+    }
+
+}
+@media (max-width:600px) {
+  #main{
+   margin-left:5px;
+    }
+}
+
+@media (max-width: 991px), (orientation: portrait) {
+
+    #main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(30px, 50px) repeat(2, auto);
+        grid-template-areas: 
+            'empty'
+            'title-col'
+            'main-content-col';
+        gap: 1.6em;
+        justify-items: stretch;
+        align-items: stretch;
+        margin-bottom: 30px;
+    } 
+
+  
+     select, textarea, button, legend {
+        font-size: 14.5px;
+    }
+    .Input_Career{
+        font-size: 14.5px;
+    }
+    .Input_email{
+        font-size: 14.5px;
+    }
+    .Input_Age{
+        font-size: 14.5px;
+    }
+    
+    .Label_Common{
+        font-size: 14.5px; 
+    }
+ 
+
+    .h2_Career {
+        font-size: 25px;
+    }
+
+      /* h5, h6 {
+        text-align: center;
+        color: #f4f4f4;
+    } */
+
+    #header {
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #survey-form {        
+        padding: 10px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            'row-heading'
+            'row-2-left'
+            'row-2-right'
+            'row-3-left'
+            'row-3-right'
+            'row-4-left'
+            'row-4-right'
+            'row-textarea';
+            /* 'row-button'; */
+    }
+
+    fieldset {
+        margin-left: 0;
+        padding-left: 3px;
+    }
+
+    input[type='radio'], input[type='checkbox'] {
+        min-width: 1.8em;
+        min-height: 1.8em;
+        vertical-align: top;
+    }
+
+}

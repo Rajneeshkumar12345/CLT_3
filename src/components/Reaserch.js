@@ -1,6 +1,12 @@
 import React, { useEffect } from "react";
 import "./Research.css";
 import Reaserch1 from "../images/Reaserch.png";
+import ML1 from "../images/ML1.png";
+import ML2 from "../images/ML2.png";
+import ML3 from "../images/ML3.png";
+import ML4 from "../images/ML4.png";
+import ML5 from "../images/ML5.png";
+import ML6 from "../images/ML6.png";
 
 const Reaserch = () => {
   useEffect(() => {
@@ -108,6 +114,94 @@ const Reaserch = () => {
           </h3>
         </div>
       </div>
+
+
+
+
+      <div class="container-fluid mb-5">
+        <div class="text-center  mt-5">
+          <h1 className="ML_Heading">ML.NET</h1>
+          <h5>An open source and cross-platform machine learning framework</h5>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box">
+              <div class="our-services settings">
+                <div class="icon">
+                  {" "}
+                  <img src={ML1} alt="ml_sticker" />
+                </div>
+                <h4>Sales Forcasting</h4>
+                <h6 className="Ml_text">Forecast future sales for products using a regression algorithm.</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="our-services speedup">
+                <div class="icon">
+                  {" "}
+                  <img src={ML2} alt="ml_sticker"/>{" "}
+                </div>
+                <h4>Fraud Detection</h4>
+                <h6  className="Ml_text">Detect fraudulent credit card transaction using a binary classification algorithm.</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="our-services privacy">
+                <div class="icon">
+                  {" "}
+                  <img src={ML3} alt="ml_sticker" />{" "}
+                </div>
+                <h4>Price Prediction</h4>
+                <h6  className="Ml_text">Predict taxi fares based on parameters such as distance traveled using a regression algorithm</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box">
+              <div class="our-services backups">
+                <div class="icon">
+                  {" "}
+                  <img src={ML4} alt="ml_sticker" />{" "}
+                </div>
+                <h4>Product Recommendation</h4>
+                <h6  className="Ml_text">Recommend products based on purchase history using a matrix factorization algorithm.</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="our-services ssl">
+                <div class="icon">
+                  {" "}
+                  <img src={ML5} alt="ml_sticker" />{" "}
+                </div>
+                <h4>Sentimental Analysis</h4>
+                <h6  className="Ml_text">Analyze the sentiment of customer reviews using a binary classification algorithm.</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="our-services database">
+                <div class="icon">
+                  {" "}
+                  <img src={ML6} alt="ml_sticker" />{" "}
+                </div>
+                <h4>Customer Segmentation</h4>
+                <h6 className="Ml_text">Identify groups of customers with similar profiles using a clustering algorithm.</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
       <section className="gap-top service-middle-banner-bottom-wrapp">
         <div className="container">

@@ -49,6 +49,12 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
+    title: 'CAREER WITH US',
+    path: '/CareerPage',
+    icon: <MdIcons.MdCastForEducation />,
+    cName: 'nav-text'
+  },
+  {
     title: 'CONTACT US',
     path: '/Contact',
     icon: <AiIcons.AiFillContacts />,

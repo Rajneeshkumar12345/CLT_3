@@ -91,7 +91,7 @@ const Contact = () => {
                       ></textarea>
                     </div>
                   </div>
-                  <div className="col-12">
+                  {/* <div className="col-12">
                     <div className="form-group">
                       <div className="form-check">
                         <input
@@ -109,7 +109,7 @@ const Contact = () => {
                         </label>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-12">
                     <button className="btn btn-primary" type="submit">
                       Send
